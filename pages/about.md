@@ -3,6 +3,7 @@ layout: page
 title: About
 permalink: /about/
 feature-img: "assets/img/pexels/travel.jpeg"
+order: 1
 ---
 
 Technology has always been at the core of my life. Ever since I was a young child, I have been fond of technology. There’s just something about tech that opens up new possibilities to a person. Being able to help people learn new technologies brings me joy.
