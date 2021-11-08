@@ -9,6 +9,7 @@
   color: var(--header-text);
   background: no-repeat var(--header-noimg-background);
   backdrop-filter: brightness(0.5);
+  background-position: fixed;
 
   h1 {
     font-family: $font-family-logo;
