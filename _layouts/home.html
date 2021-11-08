@@ -4,8 +4,8 @@ layout: default
 
 <div class="home">
 
-    <div id="main" {% if site.header_feature_image %}class="call-out"
-         style="background-image: url('{{ site.header_feature_image | relative_url }}'); background-position: center bottom !important;"{% endif %}>
+    <div id="main" class="call-out"
+         {% if site.header_feature_image %}style="background-image: url('{{ site.header_feature_image | relative_url }}'); background-position: center bottom !important;"{% endif %}>
         <h1> {{ site.header_text | default: "Change <code>header_text</code> in <code>_config.yml</code>"}} </h1>
     </div>
 
