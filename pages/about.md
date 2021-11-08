@@ -2,10 +2,11 @@
 layout: page
 title: About
 permalink: /about/
-feature-img: "assets/img/pexels/travel.jpeg"
+#feature-img: "assets/img/pexels/travel.jpeg"
 order: 1
 ---
 
+[Siri Shortcuts Logo](/assets/img/kyle-profile-pic.jpg){:style="float: right;margin-left: 10x;margin-bottom: 10px;"}
 Technology has always been at the core of my life. Ever since I was a young child, I have been fond of technology. There’s just something about tech that opens up new possibilities to a person. Being able to help people learn new technologies brings me joy.
 
 I have gone too long without creating a place to write about technology and continue helping others.
