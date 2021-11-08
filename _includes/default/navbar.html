@@ -20,7 +20,7 @@
 
     <!-- Menu -->
     <ul class="hide">
-        {% assign name_page = "" %}
+        {% assign name_page = "" | sort: 'order' %}
 
         {% for page in site.pages | sort: 'order' %}
             {% unless page.title == null or page.hide or name_page contains page.title %}
