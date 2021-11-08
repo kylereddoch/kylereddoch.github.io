@@ -14,7 +14,7 @@ favicon: /assets/favicon.ico                             # Icon displayed in the
 
 # Header and footer text
 header_text: Hi, my name is Kyle  # Change Blog header text
-header_feature_image: /assets/img/pexels/macbook-pro-keyboard.jpeg
+header_feature_image: /assets/img/pexels/macbook-pro-keyboard.jpg
 footer_text: >
   Made with ☕️ by Kyle Reddoch. Powered by <a href="https://jekyllrb.com/">Jekyll</a> with <a href="https://github.com/sylhare/Type-on-Strap">Type on Strap</a>. Hosted on <a href="https://kylereddoch.github.io">Github Pages</a>.
 
