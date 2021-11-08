@@ -9,7 +9,6 @@
   color: var(--header-text);
   background: no-repeat var(--header-noimg-background);
   backdrop-filter: brightness(0.5);
-  background-size: cover;
 
   h1 {
     font-family: $font-family-logo;
@@ -39,7 +38,7 @@
 }
 
 #main {
-  background-position: 50% 35%;
+  background-position: 100% -50px, 0 center, center center;
 }
 
 /* --- Post listing --- */
