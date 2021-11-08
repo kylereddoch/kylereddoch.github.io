@@ -20,9 +20,10 @@
 
     <!-- Menu -->
     <ul class="hide">
-        {% assign name_page = "" | sort: 'order' %}
+        {% assign name_page = "" %}
+        {% assign pages_list = (site.pages | sort: 'order') %}
 
-        {% for page in site.pages | sort: 'order' %}
+        {% for page in pages_list %}
             {% unless page.title == null or page.hide or name_page contains page.title %}
             <li class="separator"> | </li>
             <li>
