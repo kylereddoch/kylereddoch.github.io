@@ -9,12 +9,12 @@ description: "Hello, my name is Kyle Redddoch! This is my
   focus on Siri Shortcuts. Hope you enjoy. I will
   be sharing my personal shortcuts that I create
   as well as news, tips, and more."      # used by search engines
-avatar: assets/img/avatar.png                         # Empty for no avatar in navbar
-favicon: assets/favicon.ico                             # Icon displayed in the tab
+avatar: /assets/img/avatar.png                         # Empty for no avatar in navbar
+favicon: /assets/favicon.ico                             # Icon displayed in the tab
 
 # Header and footer text
 header_text: Hi, my name is Kyle  # Change Blog header text
-header_feature_image: assets/img/pexels/macbook-pro-keyboard.jpeg
+header_feature_image: /assets/img/pexels/macbook-pro-keyboard.jpeg
 footer_text: >
   Made with ☕️ by Kyle Reddoch. Powered by <a href="https://jekyllrb.com/">Jekyll</a> with <a href="https://github.com/sylhare/Type-on-Strap">Type on Strap</a>. Hosted on <a href="https://kylereddoch.github.io">Github Pages</a>.
 
