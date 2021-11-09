@@ -6,7 +6,7 @@ permalink: /about/
 order: 1
 ---
 
-![Kyle Reddoch](/assets/img/kyle-profile-pic.jpg){:style="float: right;margin-left: 10x;margin-bottom: 10px;"}
+![Kyle Reddoch](/assets/img/kyle-profile-pic.jpg){:style="float: right; margin-left: 10px; margin-bottom: 10px;"}
 Technology has always been at the core of my life. Ever since I was a young child, I have been fond of technology. There’s just something about tech that opens up new possibilities to a person. Being able to help people learn new technologies brings me joy.
 
 I have gone too long without creating a place to write about technology and continue helping others.
