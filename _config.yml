@@ -46,11 +46,12 @@ paginate_path: "/blog/page:num"
 
 # PORTFOLIO
 collections:
-  - portfolio:
+  portfolio:
     output: true
     permalink: /:collection/:name
 # SHORTCUTS GALLERY
-  - shortcuts:
+collections:
+  shortcuts:
     output: true
     permalink: /:collection/:name
 
