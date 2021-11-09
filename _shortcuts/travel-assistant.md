@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Travel Assistant
-img: "assets/img/shortcuts/shortcuts-gallery-img.jpg"
+img: "assets/img/shortcuts/travel-assistant.jpg"
 tags: [navigation, shortcuts_gallery]
 ---
 
