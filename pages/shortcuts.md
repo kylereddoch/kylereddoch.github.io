@@ -2,6 +2,7 @@
 layout: page
 title : Shortcuts Gallery 
 permalink: /shortcuts-gallery/
+collection: shortcuts
 subtitle: "Just some Shortcuts I've created" 
 feature-img: "assets/img/siri-shortcuts.jpg"
 order: 2
