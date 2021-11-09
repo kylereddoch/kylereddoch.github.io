@@ -78,6 +78,9 @@
         <script async src='https://www.google-analytics.com/analytics.js'></script>
     {% endif %}
 
+    <!-- Google Search Console -->
+    <meta name="google-site-verification" content="8cluH2jsTsFNmGrfwcW7jzX0xxXrA7TGQKXtlbG967E" />
+
     <!-- seo tags -->
     <meta property="og:image" content="{{ '/' | absolute_url }}{% if page.thumbnail %}{{ page.thumbnail }}{% else %}{{ page.feature-img | default: site.header_feature_image }}{% endif %}">
     {% unless page.layout == post %}
