@@ -56,10 +56,10 @@ layout: default
   }
   
   {% if page.color %}
-  {% comment %}.feature-image a { color: {{ page.color }} !important; }{% endcomment %}
+  .feature-image a { color: {{ page.color }} !important; }
   {% comment %}div#post-nav a { color: {{ page.color }} !important; }{% endcomment %}
   {% comment %}footer a { color: {{ page.color }} !important; }{% endcomment %}
-  .site-header nav a:hover {  color: {{ page.color }} !important; }
+  {% comment %}.site-header nav a:hover {  color: {{ page.color }} !important; }{% endcomment %}
   header#main { 
       background-color: {{ page.color }} !important;
       background-image: url('{{ site.color_image | relative_url }}');
