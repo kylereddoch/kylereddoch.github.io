@@ -11,4 +11,4 @@ Use this shorcut to find various locations around you for example; Gas stations,
 
 I use this frequently when travelling to help me find what I need.
 
-[![Add {{ item.title }} to Shortcut](/assets/img/shortcuts/add-to-siri-btn.png)](https://www.icloud.com/shortcuts/f845f112a9a5432abe438204f26d6313){:style="margin: 0 auto !important; display: block !important;"}
+[![Add {{ item.title }} to Shortcut](/assets/img/shortcuts/add-to-siri-btn.png){:style="margin: 0 auto !important; display: block !important;"}](https://www.icloud.com/shortcuts/f845f112a9a5432abe438204f26d6313)
