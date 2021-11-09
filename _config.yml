@@ -9,6 +9,7 @@ description: "Hello, my name is Kyle Redddoch! This is my
   focus on Siri Shortcuts. Hope you enjoy. I will
   be sharing my personal shortcuts that I create
   as well as news, tips, and more."      # used by search engines
+tagline: "Shortcuts not @ . Apple Fanboy. Aspiring Swift Developer. ☕️ addict."
 avatar: /assets/img/avatar.png                         # Empty for no avatar in navbar
 favicon: /assets/favicon.ico                             # Icon displayed in the tab
 
