@@ -10,6 +10,6 @@ order: 2
 
 Below I have organized some of my popular shorcuts for everyone to enjoy. Click on each one to learn more about it and download.
 
-**Disclaimer:** More to come...
+**More to come...**
 
 {% include shortcuts.html %}
