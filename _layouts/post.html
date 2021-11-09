@@ -56,9 +56,9 @@ layout: default
   }
   
   {% if page.color %}
-  .feature-image a { color: {{ page.color }} !important; }
-  div#post-nav a { color: {{ page.color }} !important; }
-  footer a { color: {{ page.color }} !important; }
+  {% comment %}.feature-image a { color: {{ page.color }} !important; }{% endcomment %}
+  {% comment %}div#post-nav a { color: {{ page.color }} !important; }{% endcomment %}
+  {% comment %}footer a { color: {{ page.color }} !important; }{% endcomment %}
   .site-header nav a:hover {  color: {{ page.color }} !important; }
   header#main { 
       background-color: {{ page.color }} !important;
