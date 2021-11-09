@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Travel Assistant
-img: "assets/img/portfolio/shortcuts-gallery-img.jpg"
+img: "assets/img/shortcuts/shortcuts-gallery-img.jpg"
 tags: [navigation, shortcuts_gallery]
 ---
 
@@ -11,4 +11,4 @@ Use this shorcut to find various locations around you for example; Gas stations,
 
 I use this frequently when travelling to help me find what I need.
 
-[![Add to Siri](assets/img/shortcuts/add-to-siri-btn.png)](https://www.icloud.com/shortcuts/f845f112a9a5432abe438204f26d6313)
+[![Add to Siri](/assets/img/shortcuts/add-to-siri-btn.png)](https://www.icloud.com/shortcuts/f845f112a9a5432abe438204f26d6313)
