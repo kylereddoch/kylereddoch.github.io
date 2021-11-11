@@ -1,6 +1,7 @@
 --- 
 layout: page
-title : Portfolio 
+title : Portfolio
+descriptiom: Here are projects that I have or am currently working on.
 permalink: /portfolio/
 collection: portfolio
 subtitle: "Projects I am working on" 
