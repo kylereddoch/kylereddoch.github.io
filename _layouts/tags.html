@@ -20,6 +20,13 @@ layout: page
     {% assign rawtags = rawtags | append: portfolio_tags %}
     {% endfor %}
 
+    <!-- cycles through shortcuts gallery to get tags -->
+    {% assign shortcuts = site.shortcuts | map: 'tags' | join: ',' | split: ',' | uniq %}
+    {% for tag in shortcuts %}
+    {% assign shortcuts_tags = tag | join: '|' | append: '|' %}
+    {% assign rawtags = rawtags | append: shortcuts_tags %}
+    {% endfor %}
+
     <!-- cycles through pages to get tags -->
     {% for page in site.pages %}
     {% if page.tags.size > 0 %}
