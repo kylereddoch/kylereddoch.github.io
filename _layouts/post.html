@@ -32,11 +32,6 @@ layout: default
 
 </article>
 
-<!-- Post navigation -->
-{% if site.post_navigation  or site.theme_settings.post_navigation %}
-{% include blog/post_nav.html %}
-{% endif %}
-
 <!--Utterances-->
 {% if site.comments.utterances.repo and site.comments.utterances.issue-term %} {% include social/utterances.html %} {% endif %}
 
@@ -46,6 +41,11 @@ layout: default
 <!-- Disqus -->
 {% if site.comments.disqus_shortname or site.theme_settings.disqus_shortname or site.disqus_shortname %}
 {% include social/disqus.html %}{% endif %}
+
+<!-- Post navigation -->
+{% if site.post_navigation  or site.theme_settings.post_navigation %}
+{% include blog/post_nav.html %}
+{% endif %}
 
 <!-- To change color of links in the page -->
 <style>
