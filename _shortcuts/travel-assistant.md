@@ -7,6 +7,8 @@ tags: [navigation, shortcuts_gallery]
 
 ![{{ item.title }}]({{ page.img | relative_url }}){:style="margin: 0 auto !important; display: block !important;"}
 
+<div style="width: 100%; text-align: center;">Updated on: 11/12/2021</div>
+
 Use this shorcut to find various locations around you for example; Gas stations, charging stations, restaurants, and more! You have the option to use either Apple Maps, Google Maps, or Waze (you will need the apps installed).
 
 I use this frequently when travelling to help me find what I need.
