@@ -23,14 +23,14 @@ twitter:
   username: winphankyle
   card: summary
 
-social:
-  name: Kyle Reddoch
-  links:
-    - https://twitter.com/WinPhanKyle
-    - https://www.instagram.com/kyle.reddoch
-    - https://www.linkedin.com/in/KyleReddoch
-    - https://www.github.com/kylereddoch
-    - https://www.tiktok.com/@kyle.reddoch
+# social:
+#   name: Kyle Reddoch
+#   links:
+#     - https://twitter.com/WinPhanKyle
+#     - https://www.instagram.com/kyle.reddoch
+#     - https://www.linkedin.com/in/KyleReddoch
+#     - https://www.github.com/kylereddoch
+#     - https://www.tiktok.com/@kyle.reddoch
 
 webmaster_verifications:
   google: 8cluH2jsTsFNmGrfwcW7jzX0xxXrA7TGQKXtlbG967E
