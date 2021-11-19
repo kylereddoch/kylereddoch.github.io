@@ -4,8 +4,8 @@ title: "Review: Grid Studio frames beautiful Apple Devices for you to hang"
 #color: brown # For a colored header
 author: kylereddoch
 #bootstrap: true # To use bootstrap alongside markdown
-feature-img: "assets/img/feature-img/gridstudio-frames.jpg" # Featured image in post header
-thumbnail: "assets/img/thumbnails/feature-img/gridstudio-frames.jpg" # Thumbnail for post in blog list
+feature-img: "/assets/img/feature-img/gridstudio-frames.jpg" # Featured image in post header
+thumbnail: "/assets/img/thumbnails/feature-img/gridstudio-frames.jpg" # Thumbnail for post in blog list
 #hide_title: true # Hides post title when using an image with the title in it
 tags: [apple, grid studio, for the office]
 #excerpt_separator: <!--more--> # Used if you want to use a custom seperator (put the seperator in the post where you want it)
