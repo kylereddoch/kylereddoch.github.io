@@ -17,7 +17,7 @@ Grid Studio creates wonderful, framed wall decorations consisting of Apple devic
 
 Grid Studio was generous enough to send me a couple of devices for this review. I was sent the iPhone 4S and Apple Watch Series 1. Both of these devices were remarkable when they debuted. I can still remember getting each device for the first time. The iPhone 4S was the 3rd iPhone I owned and the Series 1 Apple Watch was the first-ever smartwatch I had. Seeing these devices framed brought back so much nostalgia.
 
-{% include image-gallery.html folder="/assets/img/gridstuio-gallery" %}
+{% include image-gallery.html folder="/assets/img/gridstudio-gallery" %}
 
 ### Conclusion
 
