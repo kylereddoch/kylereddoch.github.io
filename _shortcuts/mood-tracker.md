@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Mood Tracker
-img: "assets/img/shortcuts/mood-tracker.png"
+img: "/assets/img/shortcuts/mood-tracker.png"
 tags: [health, shortcuts_gallery]
 ---
 
