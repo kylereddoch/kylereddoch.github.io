@@ -8,7 +8,7 @@ This respository is for my personal site/blog. DO NOT FORK THIS!
 
 ### Connect with me
 
-[![KyleReddoch.me](https://raw.githubusercontent.com/iconic/open-iconic/master/svg/globe.svg$#connect)][website]
+[![KyleReddoch.me](https://raw.githubusercontent.com/iconic/open-iconic/master/svg/globe.svg#connect)][website]
 [![Kyle Reddoch | Twitter](https://cdn.jsdelivr.net/npm/simple-icons@v5/icons/twitter.svg#connect)][twitter]
 [![Kyle Reddoch | Instagram](https://cdn.jsdelivr.net/npm/simple-icons@v5/icons/instagram.svg#connect)][instagram]
 [![Kyle Reddoch | LinkedIn](https://cdn.jsdelivr.net/npm/simple-icons@v5/icons/linkedin.svg#connect][linkedin]
@@ -23,7 +23,7 @@ This respository is for my personal site/blog. DO NOT FORK THIS!
 <style>
 img[src*="#connect"] {
    width:22px;
-   heigth:22px;
+   height:22px;
    align:left;
 }
 
