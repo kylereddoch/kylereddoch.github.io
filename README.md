@@ -20,6 +20,7 @@ This respository is for my personal site/blog. DO NOT FORK THIS!
 [linkedin]: https://linkedin.com/in/kylereddoch
 [telegram]: https://t.me/kylereddoch
 
+<style>
 img[src*="#connect"] {
    width:22px;
    heigth:22px;
@@ -29,3 +30,4 @@ img[src*="#connect"] {
 h1, h2 {
   text-align: center;
 }
+</style>
