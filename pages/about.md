@@ -28,6 +28,6 @@ Being able to help people beings me joy. It is my hope that the tools and projec
 
 You can sponsor me (receive exclusive perks via a membership) using the following links:
 
-<script type="text/javascript" data-name="bmc-button" data-slug="kylereddoch" data-color="#FFDD00" data-emoji=""  data-font="Lato" data-text="Buy me a coffee" data-outline-color="#000000" data-font-color="#000000" data-coffee-color="#ffffff" ></script>
+<script type="text/javascript" src="https://cdnjs.buymeacoffee.com/1.0.0/button.prod.min.js" data-name="bmc-button" data-slug="kylereddoch" data-color="#FFDD00" data-emoji=""  data-font="Lato" data-text="Buy me a coffee" data-outline-color="#000000" data-font-color="#000000" data-coffee-color="#ffffff" ></script>
 
-<script type='text/javascript'>kofiwidget2.init('Support Me on Ko-fi', '#29abe0', 'S6S374TCV');kofiwidget2.draw();</script>
+<script type='text/javascript' src='https://storage.ko-fi.com/cdn/widget/Widget_2.js'></script><script type='text/javascript'>kofiwidget2.init('Support Me on Ko-fi', '#29abe0', 'S6S374TCV');kofiwidget2.draw();</script> 
