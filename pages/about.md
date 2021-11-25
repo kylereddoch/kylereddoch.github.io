@@ -22,7 +22,6 @@ Stuck on a shortcut? Have an idea and not sure where to start? Just want to say 
 
 I am an aspiring Swift/SwifUI Apple Developer. I have backgorund in front-end development and have dabbled in back-end development. I love to create tools and open-source projects that help make a difference in people's lives.
 
-
 ### 🙏🏼 Sponsor my work
 
 Being able to help people beings me joy. It is my hope that the tools and projects I create on my [GitHub](https://github.com/kylereddoch) does just that. There's no pressure but any help to be able to continue my work is greatly appreciated.
@@ -31,4 +30,4 @@ You can sponsor me (receive exclusive perks via a membership) using the followin
 
 <script type="text/javascript" data-name="bmc-button" data-slug="kylereddoch" data-color="#FFDD00" data-emoji=""  data-font="Lato" data-text="Buy me a coffee" data-outline-color="#000000" data-font-color="#000000" data-coffee-color="#ffffff" ></script>
 
-<script type='text/javascript'>kofiwidget2.init('Support Me on Ko-fi', '#29abe0', 'S6S374TCV');kofiwidget2.draw();</script> 
+<script type='text/javascript'>kofiwidget2.init('Support Me on Ko-fi', '#29abe0', 'S6S374TCV');kofiwidget2.draw();</script>
