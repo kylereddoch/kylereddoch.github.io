@@ -18,7 +18,7 @@ I have gone too long without creating a place to write about technology and cont
 
 Stuck on a shortcut? Have an idea and not sure where to start? Just want to say hi? Feel free to reach out to me [@winphankyle](https://www.twitter.com/winphankyle) on Twitter.
 
-### What I do
+### 🧑🏻‍💻 What I do
 
 I am an aspiring Swift/SwifUI Apple Developer. I have backgorund in front-end development and have dabbled in back-end development. I love to create tools and open-source projects that help make a difference in people's lives.
 
