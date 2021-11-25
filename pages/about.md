@@ -18,7 +18,7 @@ I have gone too long without creating a place to write about technology and cont
 
 Stuck on a shortcut? Have an idea and not sure where to start? Just want to say hi? Feel free to reach out to me [@winphankyle](https://www.twitter.com/winphankyle) on Twitter.
 
-You can also check out my [Shortcuts Gallery](/shortcuts_gallery/) where I have tons of Shortcuts that I've created for various tasks ad routines.
+You can also check out my [Shortcuts Gallery](/shortcuts-gallery/) where I have tons of Shortcuts that I've created for various tasks ad routines.
 
 ### 🧑🏻‍💻 What I do
 
