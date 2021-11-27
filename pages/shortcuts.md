@@ -11,6 +11,6 @@ order: 2
 
 Below I have organized some of my popular shorcuts for everyone to enjoy. Click on each one to learn more about it and download.
 
-**More to come. In the process of moving them over from Airtable**
+#### More to come. In the process of moving them over from Airtable
 
 {% include shortcuts.html %}
