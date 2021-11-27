@@ -31,7 +31,7 @@ layout: page
     {% assign now = site.now | map: 'tags' | join: ',' | split: ',' | uniq %}
     {% for tag in now %}
     {% assign now_tags = tag | join: '|' | append: '|' %}
-    {% assign rawtags = rawtags | append: nowpage_tags %}
+    {% assign rawtags = rawtags | append: now_tags %}
     {% endfor %}
 
     <!-- cycles through pages to get tags -->
