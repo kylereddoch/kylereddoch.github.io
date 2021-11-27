@@ -26,4 +26,32 @@
   {% endif %}
 } {% unless forloop.last %},{% endunless %}
   {% endfor %}
+  {% if site.shortcuts.size > 0 %},{% endif %}
+  {% for page in site.shortcuts %}
+  {
+  {% if page.title != nil %}
+  "title"    : "{{ page.title | strip_newlines | escape }}",
+  "category" : "{{ page.category }}",
+  "tags"     : "{{ page.tags | join: ', ' | prepend: " " }}",
+  "url"      : "{{ page.url | relative_url }}",
+  "date"     : "{{ page.date | date: "%B %-d, %Y" }}",
+  "excerpt"  : {{ page.content | strip_html | truncate: '250' | jsonify }},
+  "content"  : {{ page.content | strip_html | escape | jsonify }}
+  {% endif %}
+} {% unless forloop.last %},{% endunless %}
+  {% endfor %}
+  {% if site.now.size > 0 %},{% endif %}
+  {% for page in site.now %}
+  {
+  {% if page.title != nil %}
+  "title"    : "{{ page.title | strip_newlines | escape }}",
+  "category" : "{{ page.category }}",
+  "tags"     : "{{ page.tags | join: ', ' | prepend: " " }}",
+  "url"      : "{{ page.url | relative_url }}",
+  "date"     : "{{ page.date | date: "%B %-d, %Y" }}",
+  "excerpt"  : {{ page.content | strip_html | truncate: '250' | jsonify }},
+  "content"  : {{ page.content | strip_html | escape | jsonify }}
+  {% endif %}
+} {% unless forloop.last %},{% endunless %}
+  {% endfor %}
 ]
