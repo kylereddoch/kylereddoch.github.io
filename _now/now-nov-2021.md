@@ -10,13 +10,9 @@ As I am here writing this, I'm having a hard time figuring out how to organize a
 
 Recently I decided to go back to school and get my Bachelor's in I.T. with a concentration in Software Development. I went with Southern New Hampshire University online mainly because the tuition price was low. I am getting everything ready and organized for when I start on January 3rd.
 
-{% twitter https://twitter.com/winphankyle/status/1460981890354143234?s=21 %}
-
 This is going to be a change since I haven't been in college regularly since 2006. Before my middle child was born I did a few semesters at a local community college here but never finished as I left to help with our newborn at the time. Then again in 2015 I went to University of Phoenix online but again didn't finish. The time just wasn't right.
 
 I'm also using this opportunity to get me a new MacBook Pro! The current one (2017 model), won't have enough space on it for my schooling. I have decided to go with the new 14" model with the M1 Pro in it.
-
-{% twitter https://twitter.com/winphankyle/status/1461568735010074627?s=21 %}
 
 I have also started my journey in app development. I started learning Swift/SwiftUI so I can develop for the Apple ecosystem. I found this really cool site by [Paul Hudson](https://twitter.com/twostraws) called [Hacking with Swift](https://www.hackingwithswift.com). His [100 Days of Swift](https://www.hackingwithswift.com/100) and [100 Days of SwiftUI](https://www.hackingwithswift.com/100/swiftui) are amazing. He has videos, tutorials, and more to help you learn both.
 
