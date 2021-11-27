@@ -65,12 +65,6 @@ comments:
 # PAGINATION
 paginate: 5
 paginate_path: "/blog/page:num"
-
-# PORTFOLIO
-collections:
-  portfolio:
-    output: true
-    permalink: /:collection/:name
     
 # SHORTCUTS GALLERY
 collections:
