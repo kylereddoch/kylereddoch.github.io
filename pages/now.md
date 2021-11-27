@@ -101,6 +101,6 @@ As mentioned up top, I have gotten into development. I have started to spend mor
 
 I also recently finished a Star Wars Lego set that was really fun. I am going to try and get more of the set so I can have a collection.
 
-{% include now.html %}
-
 P.S. You can find the full history of these updates [here](https://www.kylereddoch.me/tags/#now).
+
+{% include now.html %}
