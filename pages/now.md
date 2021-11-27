@@ -3,7 +3,7 @@ layout: page
 title : What I'm Up To Right Now
 descriptiom: Stay up to date with what I am up to right now.
 permalink: /now/
-collection: nowpage
+collection: now
 subtitle: "A Glympse Into My Life" 
 hide: true
 ---

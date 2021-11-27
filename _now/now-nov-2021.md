@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Now - November 2021
-tags: [now, gear, ]
+tags: [now, gear]
 ---
 
 ## What's New?

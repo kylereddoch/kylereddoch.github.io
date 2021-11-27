@@ -28,9 +28,9 @@ layout: page
     {% endfor %}
 
     <!-- cycles through Now to get tags -->
-    {% assign nowpage = site.nowpage | map: 'tags' | join: ',' | split: ',' | uniq %}
-    {% for tag in nowpage %}
-    {% assign nowpage_tags = tag | join: '|' | append: '|' %}
+    {% assign now = site.now | map: 'tags' | join: ',' | split: ',' | uniq %}
+    {% for tag in now %}
+    {% assign now_tags = tag | join: '|' | append: '|' %}
     {% assign rawtags = rawtags | append: nowpage_tags %}
     {% endfor %}
 
@@ -113,7 +113,7 @@ layout: page
             {% endfor %}
 
             <!-- Now -->
-            {% for note in site.nowpage %}
+            {% for note in site.now %}
             {% if note.tags contains tag %}
             <h5 class="tag-title">
                 <a href="{{ note.url | relative_url }}" alt="{{ note.title }}" title="{{ note.title }}">
