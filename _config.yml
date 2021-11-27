@@ -70,10 +70,6 @@ paginate_path: "/blog/page:num"
 collections:
   shortcuts:
     output: true
-    permalink: /:collection/:name
-
-# NOW
-collections:
   now:
     output: true
     permalink: /:collection/:name
