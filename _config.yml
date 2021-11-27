@@ -80,7 +80,7 @@ collections:
 
 # NOW
 collections:
-  now:
+  nowpage:
     output: true
     permalink: /:collection/:name
 
