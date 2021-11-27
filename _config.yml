@@ -78,10 +78,16 @@ collections:
     output: true
     permalink: /:collection/:name
 
+# NOW
+collections:
+  now:
+    output: true
+    permalink: /:collection/:name
+
 # BUILD SETTINGS
 sass:
   style: compressed
-plugins: [jekyll-paginate, jekyll-seo-tag, jekyll-feed, jekyll-sitemap]
+plugins: [jekyll-paginate, jekyll-seo-tag, jekyll-feed, jekyll-sitemap, jekyll-twitter-plugin]
 exclude: [".jekyll-cache", ".idea", "vendor/*", "assets/node_modules/*"]
 
 theme: type-on-strap                                  # if using the theme as a jekyll theme gem
