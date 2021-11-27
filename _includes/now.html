@@ -1,7 +1,7 @@
-    <ul>
-    {% for item in site.now | sort:"date" | reverse %}
-        <li><a href="{{ item.url | relative_url }}">{{ item.title }}</a></li>
-    {% else %}
-        <li>No previous updates</li>
-    {% endfor %}
-    </ul>
+<hr>
+
+<h3>Previous Updates</h3>
+<ul>{% assign maxPost = 5 %}{% assign counter = 0 %}{% for item in site.now | sort:"date" | reverse %}
+    <li><a href="{{ item.url | relative_url }}">{{ item.title }}</a></li>{% assign counter = counter | plus: 1 %}{% if counter == maxPost %}{% break %}{% endif %}{% else %}
+    <li>No previous updates</li>{% endfor %}
+</ul>
