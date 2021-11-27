@@ -90,5 +90,3 @@ For a complete list of what I am watching, check out my [TV Time profile](https:
 As mentioned up top, I have gotten into development. I have started to spend more time with that as of late. Make sure to check my blog and [Twitter](https://twitter.com/kylereddoch) for updates as I travel on this journey.
 
 I also recently finished a Star Wars Lego set that was really fun. I am going to try and get more of the set so I can have a collection.
-
-{% twitter https://twitter.com/winphankyle/status/1454612816602800131?s=21 %}
