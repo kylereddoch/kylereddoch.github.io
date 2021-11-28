@@ -10,17 +10,20 @@ div.newsletter {
   padding: 10px;
   
   .email {
-    padding: 5px;
+    padding: 10px;
     font-family: $font-family-main;
     color: var(--code-background);
     font-size: $font-size-code;
+    display: block;
   }
   
   .submit {
-    margin: 0;
+    margin: 10px;
     font-family: $font-family-main;
     color: #FFF;
     font-size: $font-size-code;
-    background-color: var(--link)
+    background-color: var(--link);
+    display: block;
+    padding: 10px;
   }
 }

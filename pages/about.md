@@ -44,4 +44,4 @@ You can support me (even receive exclusive perks via a membership) using the fol
 
 <script type='text/javascript' src='https://storage.ko-fi.com/cdn/widget/Widget_2.js'></script><script type='text/javascript'>kofiwidget2.init('Support Me on Ko-fi', '#29abe0', 'S6S374TCV');kofiwidget2.draw();</script>
 
-<iframe src="https://github.com/sponsors/kylereddoch/button" title="Sponsor kylereddoch" height="35" width="116" style="border: 0; clear:left;"></iframe>
+<iframe src="https://github.com/sponsors/kylereddoch/button" title="Sponsor kylereddoch" height="35" width="116" style="border: 0; clear:left !impotant;"></iframe>
