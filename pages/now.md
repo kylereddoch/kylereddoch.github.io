@@ -10,7 +10,7 @@ hide: true
 
 - 📖 [Recent Books via GoodReads](https://www.goodreads.com/kylereddoch)
 - 🎧 [Recent Music via Music](https://itunes.apple.com/profile/kylereddoch)
-- 📺 [Recent TV Show via TV Time](https://www.tvtime.com/en/kylereddoch)
+- 📺 [Recent TV Shows via TV Time](https://www.tvtime.com/en/kylereddoch)
 
 <div style="width: 100%; text-align: center;">Updated: November 2021</div>
 

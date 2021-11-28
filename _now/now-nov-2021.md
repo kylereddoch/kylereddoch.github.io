@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Now - November 2021
+author: kylereddoch
 tags: [now, gear]
 ---
 
