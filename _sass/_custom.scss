@@ -6,7 +6,7 @@ div.newsletter {
   font-size: $font-size-code;
   line-height: $font-height-code;
   border-radius: $border-radius;
-  margin: 10px auto;
+  margin: 20px auto;
   padding: 10px;
   
   .email {
@@ -15,10 +15,11 @@ div.newsletter {
     color: var(--code-background);
     font-size: $font-size-code;
     display: block;
+    margin: 0 auto;
   }
   
   .submit {
-    margin: 10px;
+    margin: 10px auto;
     font-family: $font-family-main;
     color: #FFF;
     font-size: $font-size-code;
