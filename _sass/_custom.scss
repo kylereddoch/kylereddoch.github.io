@@ -15,11 +15,11 @@ div.newsletter {
     color: var(--code-background);
     font-size: $font-size-code;
     display: block;
-    margin: 0 auto;
+    margin: 0 auto !important;
   }
   
   .submit {
-    margin: 10px auto;
+    margin: 10px auto !important;
     font-family: $font-family-main;
     color: #FFF;
     font-size: $font-size-code;
