@@ -40,8 +40,10 @@ Being able to help people beings me joy. It is my hope that the tools and projec
 
 You can support me (even receive exclusive perks via a membership) using the following links:
 
+<a href="https://github.com/sponsors/kylereddoch" target="_blank"><img src="https://github.com/sponsors/kylereddoch/button" alt="Sponsor kylereddoch" style="height: 35px !important;width: 116px !important;" ></a>
+
 <a href="https://www.buymeacoffee.com/kylereddoch" target="_blank"><img src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png" alt="Buy Me A Coffee" style="height: 60px !important;width: 217px !important;" ></a>
 
 <script type='text/javascript' src='https://storage.ko-fi.com/cdn/widget/Widget_2.js'></script><script type='text/javascript'>kofiwidget2.init('Support Me on Ko-fi', '#29abe0', 'S6S374TCV');kofiwidget2.draw();</script>
 
-<iframe src="https://github.com/sponsors/kylereddoch/button" title="Sponsor kylereddoch" height="35" width="116" style="border: 0; clear:left !impotant;"></iframe>
+<!-- <iframe src="https://github.com/sponsors/kylereddoch/button" title="Sponsor kylereddoch" height="35" width="116" style="border: 0; clear:left !impotant;"></iframe> -->
