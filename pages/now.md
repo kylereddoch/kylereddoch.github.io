@@ -1,7 +1,7 @@
 --- 
 layout: page
 title : What I'm Up To Right Now
-descriptiom: Stay up to date with what I am up to right now.
+description: Stay up to date with what I am up to right now.
 permalink: /now/
 collection: now
 subtitle: "A Glympse Into My Life" 
