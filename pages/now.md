@@ -12,98 +12,45 @@ hide: true
 - 🎧 [Recent Music via Music](https://itunes.apple.com/profile/kylereddoch)
 - 📺 [Recent TV Shows via TV Time](https://www.tvtime.com/en/kylereddoch)
 
-<div style="width: 100%; text-align: center;">Updated: November 2021</div>
+<div style="width: 100%; text-align: center;">Updated: December 2021</div>
 
 ## What's New?
 
-As I am here writing this, I'm having a hard time figuring out how to organize all this. Well, let's start...
+It's another month so another update for what I'm doing right now. Nothing much has changed since last time I wrote. Time is getting closer to me starting college. I am both ready and a little scared at the same time.
 
-Recently I decided to go back to school and get my Bachelor's in I.T. with a concentration in Software Development. I went with Southern New Hampshire University online mainly because the tuition price was low. I am getting everything ready and organized for when I start on January 3rd.
+I have also started developing scripts for [Scriptable](https://scriptable.app) using javascript. The first script that I created was to collect data from the [WakaTime](https://wakatime.com) API via JSON and display the combined stats from the last 7 days. The script can be found on my [GitHub](https://github.com/kylereddoch/scriptable) and has been submitted to the Gallery on the Scriptable app. My next script I'm working on will be for RescueTime and will be a little more indepth.
 
-<blockquote class="twitter-tweet" data-theme="dark"><p lang="en" dir="ltr">This guy is officially a student of <a href="https://twitter.com/SNHU?ref_src=twsrc%5Etfw">@SNHU</a>! BS.ITE.SDE here we come. <a href="https://t.co/OIiCMkx139">pic.twitter.com/OIiCMkx139</a></p>&mdash; Kyle Reddoch (@WinPhanKyle) <a href="https://twitter.com/WinPhanKyle/status/1460981890354143234?ref_src=twsrc%5Etfw">November 17, 2021</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+Well that is all I can think of right now.
 
-This is going to be a change since I haven't been in college regularly since 2006. Before my middle child was born I did a few semesters at a local community college here but never finished as I left to help with our newborn at the time. Then again in 2015 I went to University of Phoenix online but again didn't finish. The time just wasn't right.
+### Apps I'm Using
 
-I'm also using this opportunity to get me a new MacBook Pro! The current one (2017 model), won't have enough space on it for my schooling. I have decided to go with the new 14" model with the M1 Pro in it.
+I haven't been able to try to many new apps.  These are the notable ones I have been using.
 
-I have also started my journey in app development. I started learning Swift/SwiftUI so I can develop for the Apple ecosystem. I found this really cool site by [Paul Hudson](https://twitter.com/twostraws) called [Hacking with Swift](https://www.hackingwithswift.com). His [100 Days of Swift](https://www.hackingwithswift.com/100) and [100 Days of SwiftUI](https://www.hackingwithswift.com/100/swiftui) are amazing. He has videos, tutorials, and more to help you learn both.
+**[Working Copy](https://workingcopyapp.com)** is a full-featured Git client for iOS/iPadOS.  I have been using this app for a few weeks now and I have to say, this is a well put together app. The features are amazing and you can even work offline.
 
-I also started this site/blog as a place to share technology and hopefully help and make a difference in people's lives. It has been too long without doing this so here we are. If you enjoy reading my posts and the tools I create, let me know, I love hearing from people. If you're feeling like supporting what I do/create, you're more than happy to do so. You can find the different options to support me [here](/about/#support-my-work).
+**[TV Time](https://www.tvtime.com)** allows you to track the TV Shows you are watching/watched and even the movies. It's like a social media for entertainment.
 
-## What I Currently Use
+**[AdGuard](https://adguard.com/en/welcome.html)** is an app that goes beyond blocking ads on the web. A full-featured privacy assistant, it protects you from tracking, phishing, and all kinds of fraudulent activities — while also letting you regulate protection levels on your own. The app is built for macOS and works with all browsers. A powerful safety shield your Mac deserves. AdGuard is also available for iOS/iPadOS.
 
-Here is what I am currently using in my daily life for tasks/routines/development.
+### Books I'm Reading
 
-### Devices
+I have slacked on reading any books as of late. 🙃 Hopefully that will change.
 
-- iPhone 12 Pro Max (128gb, Pacific Blue)
-- iPad Pro (11", 2nd gen, 128gb, Space Grey)
-- Apple Pencil (2nd Gen)
-- MacBook Pro (2017 model, 8gb RAM, 128gb SSD)
-- Mac mini (2018 model, 8gb RAM, 256gb SSD)
-- Apple Watch Series 7 (44mm, Wifi, Blue)
-- AirPods Max (Blue)
-- 2 - 4K AppleTV's (living room/bedroom)
-- 2 - HomePod minis (Black)
-  - Paired as a home theater system
+### What I'm Watching
 
-### Apps
+I have been focused on development lately that I haven't watched much shows, I am getting behind.
 
-These apps are ones that I use on a daily basis (in no particular order).
+**Lost in Space** season 3 finally came out on Netflix. Been waiting for that for awhile. Can't wait to catch up with the Robinson's.
 
-- Twitter (of course)
-- Shortcuts
-- Ulysses
-- Feedly
-- Discord
-- HiCoffee
-- JW Library (for my spirituality)
-- IFTTT
-- Aura (for mental health)
-- Apple apps (Reminders, Mail, Notes, Fitness, Health, Music)
-- Scriptable
-- Jayson
-- DataJar
+**Yellowstone** season 4 is in full swing and the Dutton's are out for revenge. This is going to be a battle filled season for sure.
 
-### Development Tools
+### Hobbies I'm Active With
 
-Since I am focusing more on developing, I have brushed off these apps/programs and put them to good use. What programs or apps do you use? I am also looking for new ones to try. [Feel free to let me know!](/about/#connect-with-me)
+Well, let's see...
 
-- VS Code
-- Xcode
-- Gitfox
-- iTerm2 (with fish shell)
-- GitHub
+Still playing around with Shortcuts? Diving more into developing Scriptable scripts? Creating open-source tools for people to use? Learning as much as I can?
 
-### Safari Extensions
-
-- Grammarly
-- Honey
-- Capital One Shopping
-
-## Stuff I'm Reading
-
-I am starting the Develop in Swift (Xcode 12 version) guides from Apple Education. I am positive this will help and guide me in my development journey.
-
-## Things I'm Watching
-
-**Yellowstone** - Being from Montana, this series peaked my interest. Honestly I started in late and was able to binge watch seasons 1-3 in no time. I have to say, this show is suspenseful. The acting is really good, plus you can't go wrong with Kevin Costner. I am eager to see what season 4 has to bring.
-
-**Dan Brown's The Lost Symbol** - I have been a fan of Dan Brown's - Robert Langdon movies. The Lost Symbol is a book in the series that was made into a TV series. I am a little confused though becase chronologically, it is the 3rd book. The movies has an older Robert Langdon but this series features a younger Langdon. That aside, I am really liking this series. Maybe it is just the history lover in me.
-
-**Foundation** - Any Si-fi lover will know about the Foundation series of books by Issak Asimov. This series from Apple TV+ follows that series. I honestly have to say that I never read the books (I am really bad about getting into reading) but this series is really amazing. Looking forward to finishing it to give a better review.
-
-**Dune** - The remake of the 80's Dune was amazing to say the least. This movie (Part 1) gives us a look into the plant and why the different houses are fighting for it. Part 2 is going to be fantastic and I can't wait for it to come out.
-
-For a complete list of what I am watching, check out my [TV Time profile](https://www.tvtime.com/en/kylereddoch).
-
-## Hobbies I'm Active With
-
-As mentioned up top, I have gotten into development. I have started to spend more time with that as of late. Make sure to check my blog and [Twitter](https://twitter.com/kylereddoch) for updates as I travel on this journey.
-
-I also recently finished a Star Wars Lego set that was really fun. I am going to try and get more of the set so I can have a collection.
-
-<blockquote class="twitter-tweet" data-theme="dark"><p lang="en" dir="ltr">My new toy! Only the beginning of the collection. <a href="https://twitter.com/LEGO_Group?ref_src=twsrc%5Etfw">@LEGO_Group</a> <a href="https://twitter.com/hashtag/StarWars?src=hash&amp;ref_src=twsrc%5Etfw">#StarWars</a> Tie Fighter. <a href="https://t.co/kftNSFIXfe">pic.twitter.com/kftNSFIXfe</a></p>&mdash; Kyle Reddoch (@WinPhanKyle) <a href="https://twitter.com/WinPhanKyle/status/1454612816602800131?ref_src=twsrc%5Etfw">October 31, 2021</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+I think that sum's it up for this update of What I'm Up To Right Now. Until next time, cheers 🍻.
 
 {% include now.html %}
 
