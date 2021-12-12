@@ -8,7 +8,7 @@ author: kylereddoch
 feature-img: "/assets/img/feature-img/waka-stats.jpg" # Featured image in post header
 thumbnail: "/assets/img/thumbnails/feature-img/waka-stats.jpg" # Thumbnail for post in blog list
 #hide_title: true # Hides post title when using an image with the title in it
-tags: [scriptable, scripts, development. javascript]
+tags: [scriptable, scripts, development, javascript]
 #excerpt_separator: <!--more--> # Used if you want to use a custom seperator (put the seperator in the post where you want it)
 date: 2021-12-12 17:40 -0600
 ---
