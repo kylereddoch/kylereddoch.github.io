@@ -28,7 +28,7 @@ So the script uses the WakaTime API and grabs the users data for the last 7 days
 
 The data is them organized within the medium-sized iOS widget. Scriptable will refresh the widget at a normal refresh interval but if you would like to refresh it differently, you can setup [automations with Shortcuts](https://support.apple.com/guide/shortcuts/create-a-new-personal-automation-apdfbdbd7123/ios).
 
-![WakaStats Scriptable Widget](/assets/img/feature-img/waka-stats.jpg)
+![WakaStats Scriptable Widget](/assets/img/thumbanils/feature-img/waka-stats.jpg)
 
 ### How to Download
 
