@@ -7,7 +7,7 @@ author: kylereddoch
 feature-img: "/assets/img/feature-img/gridstudio-frames.jpg" # Featured image in post header
 thumbnail: "/assets/img/thumbnails/feature-img/gridstudio-frames.jpg" # Thumbnail for post in blog list
 #hide_title: true # Hides post title when using an image with the title in it
-tags: [apple, grid studio, for the office]
+tags: [apple, grid studio, for the office, reviews]
 #excerpt_separator: <!--more--> # Used if you want to use a custom seperator (put the seperator in the post where you want it)
 ---
 
