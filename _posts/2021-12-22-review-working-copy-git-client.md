@@ -27,25 +27,27 @@ Working Copy prides itself on being a full-featured git client. Its features inc
 - Create branches
 - plus more
 
-### Working with remote repositories
+## Working with remote repositories
 
 From the app's main screen, you can clone repositories, create new ones, or even start from an iCloud folder you may have. Many of the clients out there only allow you to connect to the popular Git services, but Working Copy allows you to connect to any server you may want to use by using the URL tab.
 
-### Working with your local copy
+## Working with your local copy
 
 Once your files are cloned to your device, you can even work on your files within Working Copy with its built-in editor. The editor is a simple yet powerful one. It supports many languages you may use. You can also change font size, choose from available fronts, show line numbers or not, and even word wrap.
 
-### Files app support
+## Files app support
 
 Working Copy also supports iOS's Files app if all the above features aren't enough. That means you can add Working Copy to the sidebar to access files within it straight from Files. It also supports the Open in place feature, which allows any apps that support Document Picker to work with the files in Working copy without importing them into their own space.
 
+### Photos of Working Copy on iPhone and iPad
+
 {% include image-gallery.html folder="/assets/img/working-copy-gallery/" %}
 
-### Using Working Copy and Ulysses for this site
+## Using Working Copy and Ulysses for this site
 
 When I'm on the go, I can manage my site from any of my devices. I use Working Copy to keep my files in sync with my GitHub repository. Once on my device, whether my iPhone or iPad, I use Ulysses to edit/work on those files. From there, I push the changes back to GitHub.
 
-#### Apps to use with Working Copy (as recommended by the developer)
+### Apps to use with Working Copy (as recommended by the developer)
 
 Per the [user's guide](https://workingcopyapp.com/manual.html), these are the apps to use alongside Working Copy:
 
@@ -54,7 +56,7 @@ Per the [user's guide](https://workingcopyapp.com/manual.html), these are the ap
 - [iA Writer](https://ia.net/writer) - All around markdown editor
 - [Pixelmator](https://www.pixelmator.com/pro/) - Image editor
 
-### Pricing
+## Pricing
 
 While the pro features aren't cheap (coming in at $20), they aren't too expensive either. The pro feature is an in-app subscription; when you buy the Pro unlock, you get all features plus any added within the year. After that, you need to buy an upgrade.
 
