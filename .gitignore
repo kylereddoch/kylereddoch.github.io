@@ -35,3 +35,4 @@ jekyll-theme-type-on-strap.gemspec
 test/*
 /type-on-strap*/*
 _data/icons copy.yml
+/.Ulysses-Group.plist
