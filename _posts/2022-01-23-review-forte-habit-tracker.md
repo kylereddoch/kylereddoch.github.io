@@ -37,6 +37,8 @@ The free version of the app is limited to tracking 3 habits. After that, you wil
 - Track umlimited amount of habits
 - Customize the app icon and app accent color
 
+{% include image-gallery.html folder="/assets/img/forte-gallery/" %}
+
 Collin has really built an amazing app in Forte and it shows. If you are looking for a better habit tracker, I cannot recommend Forte enough.
 
 Download it [here](https://apps.apple.com/app/id1507681077) and give it a go!
