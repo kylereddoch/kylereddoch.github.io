@@ -9,7 +9,7 @@ feature-img: "assets/img/siri-shortcuts.jpg"
 order: 2
 ---
 
-<iframe class="airtable-embed" src="https://airtable.com/embed/shrS45HzMGuxVOWfQ?backgroundColor=blue&viewControls=on" frameborder="0" onmousewheel="" width="100%" height="533" style="background: transparent;"></iframe>
+<iframe class="airtable-embed" src="https://airtable.com/embed/shrS45HzMGuxVOWfQ?backgroundColor=blue&viewControls=on" frameborder="0" onmousewheel="" width="100%" height="533" style="background: transparent; border: 0px;"></iframe>
 
 {% comment %}
 Below I have organized some of my popular shorcuts for everyone to enjoy. Click on each one to learn more about it and download.
