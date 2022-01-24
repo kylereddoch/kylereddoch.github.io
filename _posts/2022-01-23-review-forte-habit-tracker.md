@@ -21,6 +21,8 @@ Luckily I found this app called Forte from a one of my friends on Twitter, [Coll
 
 What sets this habit tracker apart from all the others out there is, it doesn't punish you for having a "bad" day. Forte doesn't do streaks. Their motto is, **"Build Habits, Not Streaks."** When you have a habt tracker app that works on streaks, you build up those streaks to just one day having them return to zero because you didn't do your habit. ICK! Forte, uses a custom algorithm that it runs your habits through and presents your score based on performance. Your score won't go down just by missing a day. YAY!
 
+{% include image-gallery.html folder="/assets/img/forte-gallery/" %}
+
 ## Features
 
 Forte is full of features.
@@ -36,8 +38,6 @@ The free version of the app is limited to tracking 3 habits. After that, you wil
 
 - Track umlimited amount of habits
 - Customize the app icon and app accent color
-
-{% include image-gallery.html folder="/assets/img/forte-gallery/" %}
 
 Collin has really built an amazing app in Forte and it shows. If you are looking for a better habit tracker, I cannot recommend Forte enough.
 
