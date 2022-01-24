@@ -32,7 +32,7 @@ Forte is full of features.
 - WIDGETS (keep track of your habits straight from your homescreen)
 - Privacy lock (keep your habits away from others) - uses TouchID or FaceID
 
-The free version of the app is limited to tracking 3 habits. After that, you will need to purchase Forte Premium.
+The free version of the app is limited to tracking 4 habits. After that, you will need to purchase Forte Premium.
 
 ## Premium Features
 
