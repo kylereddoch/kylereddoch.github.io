@@ -12,21 +12,23 @@ hide: true
 - 🎧 [Recent Music via Music](https://itunes.apple.com/profile/kylereddoch)
 - 📺 [Recent TV Shows via Trakt](https://trakt.tv/users/kylereddoch)
 
-<div style="width: 100%; text-align: center;">Updated: January 2022</div>
+<div style="width: 100%; text-align: center;">Updated: March 2022</div>
 
 ## What's New?
 
-Well it is a new year! This year has started off busy for me. I started back up at college on the 3rd and it has been full steam ahead ever since. Right now I am just taking some gen ed classes but working fulltime also, it doesn't leave much time for other stuff. I also just before the new year switched over to using Trakt as my database for watched tv shows/movies and watchlists. You can check out my profile above.
+WOW! Has it really been since January since I've given y'all an update? I guess that's what happens when you start back to college and get swept up in it.
 
-I do have some exciting reviews in the queue. Again, cramped for time so it's taking a little longer than expected. There is a few interesting apps as well as products from [Nomad](https://nomadgoods.com), so be on the lookout for those! If you are not subbed to my RSS feed, you can do so [here](https://www.kylereddoch.me/feed.xml), that way you never miss a new article.
+This term, I am finally in a coding class. It is Phyton, and so far, I am having fun. For our project in the class, we have to build a text-based game of our own design. Any ideas would be appreciated. 😉
+
+Since going back to school, I treated myself to the new 2021 MacBook Pro 14". I love this thing! It has been a blast to use so far, and the performance and battery are phenomenal. And no, the notch does not bother me. In fact, I barely even recognize it anymore.
 
 ### Apps I'm Using
 
-**[Forte](https://fortehabits.com)** - Forte is a habit tracker app but not like all the others. It doesn't keep streaks therefore if you miss a day, it doesn't ding you for it. I have been using this app for about a month now for various habits like reading the Bible, doing my daily reflections, etc. and have really enjoyed it. The app is really well designed and visually appealing.
+**[Taio](https://taio.app)** - Taio is a beautiful markdown editor. On top of that, you can supercharge your text with workflows similar to the Shortcuts app. It even integrates with various apps such as Shortcuts and Working Copy.
 
-**[Trakt](https://trakt.tv)** - I started using Trakt just before the end of last year. I switched from using TV Time. Trakt allows you to track tv shows and movies that you watch. You can follow other users to see what they watch and get new ideas. It is a really nice community of users.
+**[DoMarks](https://domarks.app)** - Created by a friend of mine, DoMarks turns any bookmark you have into a to-do item. You can add categories, tags, and notes to them. When you're done, just check them off.
 
-**[CleanShot X](https://cleanshot.com)** - CleanShot X is a screen capture tool on steriods. It is like having 7 tools but all in one app. It provides over 50 features making it the only screen capture tool you'll need.
+**[Numble](https://www.createchsol.com/Numble/)** - It's like Wordle but with numbers. I saw this on Twitter and have been hooked ever since.
 
 ### Books I'm Reading
 
@@ -34,18 +36,20 @@ Book reading has been shelved (*pun intended*).
 
 ### What I'm Watching
 
-**1883** has been truly amazing to watch so far. Just like Yellowstone, it is always intriguing to watch. Although, **spoiler alert**, I didn't really like when they killed off Enis.
+**One Chicago Universe** - I know I am a little late to the party on this one. I am starting to watch the 3 Chicago shows (Chicago Fire, Med, and P.D.). One thing I am going to do, though, is watch them in chronological order.
 
-**The Shrink Next Door** is getting off to a slow start for me. Maybe it is because of the serious roles of both Paul Rudd and Will Ferrell. They have always been the funny, comedic actors. One thing I do know is, I already want to beat up Paul Rudd's character!
+**Endgame** - This show looks pretty good but reminds me a little of The Blacklist. I am eager to see how this show progresses.
 
-**This is Us** I have been watching this show since the beginning. It is such an amazing and emotional show. This is the last season, the final chapter, and I'm not ready for it to end.
+**Suspicion** - Apple TV+ has really started to make some exciting originals. The way Suspicion is getting interesting keeps me glued to it, and I don't like having to wait each week for another episode.
+
+**Severence** - Another Apple TV+ original, this one is a little weird. Maybe that's why I'm drawn to it, though.
 
 ### Hobbies I'm Active With
 
-Well from now and for the next 4 years, my main hobby will be getting through college. Around that, I am still working on learning Swift and SwiftUI, developing Scriptable scripts, and just keeping up with my development skills.
+Right now I am really hobby-ing my skills in development. Working on developing them and making them stronger. Tech will always be my hobby also. So keeping up with the latest and greatest in tech is always a hobby of mine.
 
 I think that sum's it up for this update of What I'm Up To Right Now. Until next time, cheers 🍻.
 
 {% include now.html %}
 
-P.S. You can find the full history of these updates [here](https://www.kylereddoch.me/tags/#now).
+P.S. You can find the entire history of these updates [here](https://www.kylereddoch.me/tags/#now).
