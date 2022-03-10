@@ -18,7 +18,7 @@ hide: true
 
 WOW! Has it really been since January since I've given y'all an update? I guess that's what happens when you start back to college and get swept up in it.
 
-This term, I am finally in a coding class. It is Phyton, and so far, I am having fun. For our project in the class, we have to build a text-based game of our own design. Any ideas would be appreciated. 😉
+This term, I am finally in a coding class. It is Phyton, and so far, I am having fun. Want to keep up with what I'm working on in the class? Follow my GitHub repository [here](https://github.com/kylereddoch/pythonProjects). For our project in the class, we have to build a text-based game of our own design. Any ideas would be appreciated. 😉
 
 Since going back to school, I treated myself to the new 2021 MacBook Pro 14". I love this thing! It has been a blast to use so far, and the performance and battery are phenomenal. And no, the notch does not bother me. In fact, I barely even recognize it anymore.
 
