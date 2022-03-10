@@ -35,7 +35,3 @@ Book reading has been shelved (*pun intended*).
 Well from now and for the next 4 years, my main hobby will be getting through college. Around that, I am still working on learning Swift and SwiftUI, developing Scriptable scripts, and just keeping up with my development skills.
 
 I think that sum's it up for this update of What I'm Up To Right Now. Until next time, cheers 🍻.
-
-{% include now.html %}
-
-P.S. You can find the full history of these updates [here](https://www.kylereddoch.me/tags/#now).
