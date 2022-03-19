@@ -28,3 +28,13 @@ div.newsletter {
     padding: 10px;
   }
 }
+
+code {
+  white-space : pre-wrap !important;
+}
+
+pre code,  /* stackoverflow */
+.md:not(.use-csslab) pre code
+ {
+  white-space: pre-wrap;
+}
