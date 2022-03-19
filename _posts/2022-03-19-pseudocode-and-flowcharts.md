@@ -9,7 +9,7 @@ description: Pseudocode and flowcharts help programmers organize the logic of th
 #thumbnail: "/assets/img/thumbnails/feature-img/gridstudio-frames.jpg" # Thumbnail for post in blog list
 #hide_title: true # Hides post title when using an image with the title in it
 tags: [coding, pseudocode, flowcharts, python, tutorials]
-date: 2022-03-19 17:20
+date: 2022-03-19 17:20 -0500
 #excerpt_separator: <!--more--> # Used if you want to use a custom seperator (put the seperator in the post where you want it)
 ---
 
