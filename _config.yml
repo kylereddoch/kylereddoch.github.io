@@ -3,12 +3,9 @@ url: "https://kylereddoch.me"
 
 # THEME-SPECIFIC CONFIGURATION
 title: Kyle Reddoch                                    # site's title
-description: "Hello, my name is Kyle Reddoch! This is my
-  website dedicated to everything Apple with a
-  focus on Siri Shortcuts. Hope you enjoy. I will
-  be sharing my personal shortcuts that I create
-  as well as news, tips, and more."      # used by search engines
-tagline: "Creator/Blogger/Developer teaching people about Shortcuts and Apple Tech"
+description: "Hello, my name is Kyle Reddoch! This is my personal webiste
+dedicated to development, product/app reviews, Apple tech/news, and the occassional tutorial."      # used by search engines
+tagline: "Developer, Software, STEM"
 avatar: /assets/img/avatar.png                         # Empty for no avatar in navbar
 favicon: /assets/favicon.ico                             # Icon displayed in the tab
 
