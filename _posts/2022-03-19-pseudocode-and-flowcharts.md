@@ -31,7 +31,7 @@ Pseudocode is an intermediary step between reading a problem statement and writi
 
 Now back to the problem above. Let's get the pseudocode written as the first step to designing our code.
 
-```{r, tidy=FALSE, eval=FALSE, highlight=FALSE }
+```text
 INPUT number of hours worked
 DECLARE weekly pay, overtime pay, and overtime hours as variables
 IF the number of hours worked is <= 40:
