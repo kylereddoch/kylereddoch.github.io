@@ -1,7 +1,8 @@
 ---
-layout: cv
+layout: redirected
 title: CV
-permalink: /cv/
+sitemap: false
+redirect_to:  https://kylereddoch.me/online-cv/
 order: 4
 ---
 
