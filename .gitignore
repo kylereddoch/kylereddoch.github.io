@@ -36,3 +36,4 @@ test/*
 /type-on-strap*/*
 _data/icons copy.yml
 /.Ulysses-Group.plist
+.vscode/*

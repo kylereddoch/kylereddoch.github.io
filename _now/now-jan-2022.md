@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Now - January 2022
+date: 2022-01-01
 author: kylereddoch
 tags: [now]
 ---

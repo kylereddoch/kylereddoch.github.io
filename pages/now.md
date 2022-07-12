@@ -8,45 +8,31 @@ subtitle: "A Glympse Into My Life"
 hide: true
 ---
 
-- 📖 [Recent Books via GoodReads](https://www.goodreads.com/kylereddoch)
 - 🎧 [Recent Music via Music](https://itunes.apple.com/profile/kylereddoch)
 - 📺 [Recent TV Shows via Trakt](https://trakt.tv/users/kylereddoch)
+<!-- - 📖 [Recent Books via GoodReads](https://www.goodreads.com/kylereddoch)-->
 
-<div style="width: 100%; text-align: center;">Updated: March 2022</div>
+<div style="width: 100%; text-align: center;">Updated: July 2022</div>
 
 ## What's New?
 
-WOW! Has it really been since January since I've given y'all an update? I guess that's what happens when you start back to college and get swept up in it.
+Things have been really crazy lately I haven't been able to update my now page like I would like to. I recently went through an entire rebrand of my personal brand and I'm now done with it. I have decided to go a different direction on my social media accounts and am going to be using them to promote my new brand and more software engineering/development stuff. I have also revamped my donation pages to better reflect my new brand. These donation pages even come with membership options with perks for each tier.
 
-This term, I am finally in a coding class. It is Phyton, and so far, I am having fun. Want to keep up with what I'm working on in the class? Follow my GitHub repository [here](https://github.com/kylereddoch/pythonProjects). For our project in the class, we have to build a text-based game of our own design. Any ideas would be appreciated. 😉
+During this rebrand, I created a new ["portal"](https://direct.me/kylereddoch) into my "world" so to say. It includes things like:
 
-Since going back to school, I treated myself to the new 2021 MacBook Pro 14". I love this thing! It has been a blast to use so far, and the performance and battery are phenomenal. And no, the notch does not bother me. In fact, I barely even recognize it anymore.
+- Links to my GitHub, social media profiles, website, my calendar to schedule a meeting with me, and my newsletter.
+- My coding playlist via Apple Music.
+- All the ways to support me and my work.
+
+I have quite a few projects in my mind right now that I am going to be working on (both new and updates to current). I am also working on a new secret app that I think you all will like. Stay tuned for that...
 
 ### Apps I'm Using
 
-**[Taio](https://taio.app)** - Taio is a beautiful markdown editor. On top of that, you can supercharge your text with workflows similar to the Shortcuts app. It even integrates with various apps such as Shortcuts and Working Copy.
+I haven't really been using any new apps lately. Here are some of the ones I am using:
 
-**[DoMarks](https://domarks.app)** - Created by a friend of mine, DoMarks turns any bookmark you have into a to-do item. You can add categories, tags, and notes to them. When you're done, just check them off.
+**[Notion](https://notion.so)** - I have recently transfered pretty much my entire life into Notion. It is by far the best note taking app I have ever used and it is a great way to organize my life.
 
-**[Numble](https://www.createchsol.com/Numble/)** - It's like Wordle but with numbers. I saw this on Twitter and have been hooked ever since.
-
-### Books I'm Reading
-
-Book reading has been shelved (*pun intended*).
-
-### What I'm Watching
-
-**One Chicago Universe** - I know I am a little late to the party on this one. I am starting to watch the 3 Chicago shows (Chicago Fire, Med, and P.D.). One thing I am going to do, though, is watch them in chronological order.
-
-**Endgame** - This show looks pretty good but reminds me a little of The Blacklist. I am eager to see how this show progresses.
-
-**Suspicion** - Apple TV+ has really started to make some exciting originals. The way Suspicion is getting interesting keeps me glued to it, and I don't like having to wait each week for another episode.
-
-**Severence** - Another Apple TV+ original, this one is a little weird. Maybe that's why I'm drawn to it, though.
-
-### Hobbies I'm Active With
-
-Right now I am really hobby-ing my skills in development. Working on developing them and making them stronger. Tech will always be my hobby also. So keeping up with the latest and greatest in tech is always a hobby of mine.
+**[DoMarks](https://domarks.app)** - I am still using and absolutely enjoy using DoMarks. Being able to have a to-do list for bookmarks is a great way to keep track of things that I want to do, etc.
 
 I think that sum's it up for this update of What I'm Up To Right Now. Until next time, cheers 🍻.
 

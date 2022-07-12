@@ -2,15 +2,15 @@ baseurl: ""
 url: "https://kylereddoch.me"
 
 # THEME-SPECIFIC CONFIGURATION
-title: Kyle Reddoch                                    # site's title
+title: Kyle Reddoch # site's title
 description: "Hello, my name is Kyle Reddoch! This is my personal webiste
-dedicated to development, product/app reviews, Apple tech/news, and the occassional tutorial."      # used by search engines
-tagline: "Developer, Software, STEM"
-avatar: /assets/img/avatar.png                         # Empty for no avatar in navbar
-favicon: /assets/favicon.ico                             # Icon displayed in the tab
+dedicated to development, product/app reviews, Apple tech/news, and the occassional tutorial." # used by search engines
+tagline: "Software Engineer, Developer, Nerd"
+avatar: /assets/img/avatar.png # Empty for no avatar in navbar
+favicon: /assets/favicon.ico # Icon displayed in the tab
 
 # Header and footer text
-header_text: Hello, I'm Kyle 👋🏼  # Change Blog header text
+header_text: let greeting = "Hello, I'm Kyle 👋🏼"  # Change Blog header text
 header_feature_image: /assets/img/pexels/macbook-pro.jpg
 footer_text: >
   Made with ☕️ by Kyle Reddoch. Powered by <a href="https://jekyllrb.com/">Jekyll</a> with <a href="https://github.com/sylhare/Type-on-Strap">Type on Strap</a>. Hosted on <a href="https://github.com/kylereddoch/kylereddoch.github.io">Github Pages</a>.

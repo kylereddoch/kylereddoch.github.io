@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Now - December 2021
+date: 2021-12-01
 author: kylereddoch
 tags: [now]
 ---
