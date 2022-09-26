@@ -115,6 +115,7 @@ Or to update the version number to a patch release:
 ```bash
 npm version patch
 ```
+
 Once you have updated the version number, you can publish it to npm by using the following command:
 
 ```bash
