@@ -9,7 +9,7 @@ description: Let's learn how to create a nerdy npx business card using CLI, node
 #thumbnail: "/assets/img/thumbnails/feature-img/gridstudio-frames.jpg" # Thumbnail for post in blog list
 #hide_title: true # Hides post title when using an image with the title in it
 tags: [coding, npx, json, cli, javascript, nodejs, tutorials]
-date: 2022-09-25 19:50 -0500
+date: 2022-09-25 19:30 -0500
 #excerpt_separator: <!--more--> # Used if you want to use a custom seperator (put the seperator in the post where you want it)
 ---
 
