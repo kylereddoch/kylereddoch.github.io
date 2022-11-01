@@ -1,5 +1,5 @@
 source "https://rubygems.org"
-gem "type-on-strap"
+# Careful while editing!
 gem 'jekyll-sitemap'
-gem 'github-pages'
+gem "webrick"
 gemspec
