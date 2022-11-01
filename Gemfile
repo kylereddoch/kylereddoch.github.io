@@ -3,5 +3,4 @@ source "https://rubygems.org"
 gem 'jekyll-sitemap'
 gem 'github-pages'
 gem "type-on-strap"
-gem "webrick"
 gemspec
