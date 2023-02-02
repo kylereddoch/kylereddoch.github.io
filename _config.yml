@@ -3,7 +3,7 @@ url: "https://kylereddoch.me"
 
 # THEME-SPECIFIC CONFIGURATION
 title: Kyle Reddoch # site's title
-description: "Hello, my name is Kyle Reddoch! This is my personal websitte
+description: "Hello, my name is Kyle Reddoch! This is my personal website
   dedicated to development, product/app reviews, Apple tech/news, and the occassional tutorial." # used by search engines
 tagline: "Software Engineer, Developer, Nerd"
 avatar: /assets/img/avatar.png # Empty for no avatar in navbar
@@ -13,7 +13,7 @@ favicon: /assets/favicon.ico # Icon displayed in the tab
 header_text: let greeting = "Hello, I'm Kyle 👋🏼"  # Change Blog header text
 header_feature_image: /assets/img/pexels/macbook-pro.jpg
 footer_text: >
-  Made with ☕️ by Kyle Reddoch. Powered by <a href="https://jekyllrb.com/">Jekyll</a> with <a href="https://github.com/sylhare/Type-on-Strap">Type on Strap</a>. Hosted on <a href="https://github.com/kylereddoch/kylereddoch.github.io">Github Pages</a>.
+  Made with ☕️ by Kyle Reddoch.</br>Powered by <a href="https://jekyllrb.com/">Jekyll</a>.
 
 # SEO
 twitter:
@@ -51,13 +51,13 @@ google_analytics: UA-171416571-1                                      # Tracking
 cookie_consent: false                                   # To respect the usage of cookies
 color_theme: dark                                       # auto, dark or light
 
-# Comments
+# Comments (Have been moved to using Mastodon - comments config in headmatter of posts)
 comments:
   disqus_shortname: my-blog-zd0prubwvt                                    # Your discus shortname for comments
-  cusdis_app_id:                                        # Your cusdis data-app-id
-  utterances:                                           # Enable by filling below information. For more info, go to https://utteranc.es
-    repo:                                               # your public comments repository (e.g. owner/repo)
-    issue-term:                                         # Issue term (e.g. "comment" consider issues with this word in the title as comments)
+#  cusdis_app_id:                                        # Your cusdis data-app-id
+#  utterances:                                           # Enable by filling below information. For more info, go to https://utteranc.es
+#    repo:                                               # your public comments repository (e.g. owner/repo)
+#    issue-term:                                         # Issue term (e.g. "comment" consider issues with this word in the title as comments)
 
 # PAGINATION
 paginate: 5

@@ -1,18 +1,10 @@
---- 
-layout: page
-title : What I'm Up To Right Now
-description: Stay up to date with what I am up to right now.
-permalink: /now/
-collection: now
-subtitle: "A Glympse Into My Life" 
-hide: true
 ---
-
-- 🎧 [Recent Music via Music](https://itunes.apple.com/profile/kylereddoch)
-- 📺 [Recent TV Shows via Trakt](https://trakt.tv/users/kylereddoch)
-- 📖 [Recent Books via GoodReads](https://www.goodreads.com/kylereddoch)
-
-<div style="width: 100%; text-align: center;">Updated: November 2022</div>
+layout: post
+title: Now - Nov 2022
+date: 2022-11-04
+author: kylereddoch
+tags: [now]
+---
 
 ## What's New?
 
@@ -35,7 +27,3 @@ I haven't really been using any new apps lately. Here are some of the ones I am 
 **[DoMarks](https://domarks.app)** - I am still using and absolutely enjoy using DoMarks. Being able to have a to-do list for bookmarks is a great way to keep track of things that I want to do, etc.
 
 I think that sum's it up for this update of What I'm Up To Right Now. Until next time, cheers 🍻.
-
-{% include now.html %}
-
-P.S. You can find the entire history of these updates [here](https://www.kylereddoch.me/tags/#now).

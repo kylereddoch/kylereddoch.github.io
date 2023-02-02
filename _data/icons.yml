@@ -1,8 +1,9 @@
 # Icons on the footer
-twitter: winphankyle
-mastodon: "https://iosdev.space/@kylewritescode"
-instagram: kyle.reddoch
+mastodon: iosdev.space/@kylewritescode
+pixelfed: "https://pixelfed.social/kylereddoch"
+#twitter: winphankyle
+#instagram: kyle.reddoch
 github: kylereddoch
 reddit: justkyleredd
-mail: "kylereddoch@me.com"            # e.g. "sam@mail.com"
-telegram: kylereddoch
+#mail: "kylereddoch@me.com"            # e.g. "sam@mail.com"
+#telegram: kylereddoch

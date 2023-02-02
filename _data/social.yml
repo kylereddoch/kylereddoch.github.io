@@ -5,12 +5,13 @@ feed:
 
 # Share button options
 share:
-  email: true
-  facebook: true
-  linkedin: true
-  pinterest: true
-  pocket: true
-  reddit: true
-  tumblr: true
-  twitter: true
+  email: 
+  mastodon: 
+  facebook:
+  twitter:
+  linkedin: 
+  pinterest: 
+  pocket: 
+  reddit: 
+  tumblr: 
   wordpress:
