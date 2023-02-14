@@ -17,8 +17,6 @@ comments:
 #excerpt_separator: <!--more--> # Used if you want to use a custom seperator (put the seperator in the post where you want it)
 ---
 
-#### Backstory
-
 With the crashing and burning happening at Twitter, I have made the personal decision to leave the platform that I have loved and enjoyed for the past 14 years. I have enjoyed great conversations, connections, and even learned in that timespan. but seeing how things are spawning out of control, I have decided to move to a platform that I have been wanting to learn for a while now. I have decided to move to [Mastodon](https://iosdev.space/@kylewritescode).
 
 Now I have had a Mastodon account ever since 2016 but haven't used it until just a few days ago. Once I started using it, I realized that I really like the platform. It is a great alternative to Twitter and I am excited to learn more about it. I was off to the races. I have since learned quite a bit about the platform and have been enjoying it. I have also been enjoying the conversations I have been having with people on the platform. Somehow, I have been having more meaningful conversations on Mastodon than I have on Twitter. I have also moved (more about that in another post) to [iosdev.space](https://iosdev.space) which is a great instance to be on if you'rer interested in iOS or Swift development.
