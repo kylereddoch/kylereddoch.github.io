@@ -47,7 +47,7 @@ color_image: /assets/img/lineart.png                    # A bit transparent for 
 katex: true                                             # Enable if using math markup
 mermaid: true                                           # Enable mermaid-js for sequence and diagrams
 google_analytics: UA-171416571-1                                      # Tracking ID, e.g. "UA-000000-01"
-cookie_consent: true                                   # To respect the usage of cookies
+cookie_consent: false                                   # To respect the usage of cookies
 color_theme: dark                                       # auto, dark or light
 
 # Comments (Have been moved to using Mastodon - comments config in headmatter of posts)
