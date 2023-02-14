@@ -9,19 +9,13 @@ order: 1
 
 ![Kyle Reddoch](/assets/img/kyle-profile-pic.jpg){:style="float: right; margin-left: 10px; margin-bottom: 10px;"}
 
-Technology has always been at the core of my life. Ever since I was a young child, I have been fond of technology. There’s just something about tech that opens up new possibilities to a person. Being able to help people learn new technologies brings me joy.
+Hello there! I'm Kyle. I'm a self-taught web and software developer. I run entirely on coffee and love to create tools and open-source projects that help make a difference in people's lives.
 
-I have gone too long without creating a place to write about technology and continue helping others.
-
-This is my personal blog where I write and post about topics I find exciting and think others will find interesting. I hope you enjoy reading my posts as much as I enjoy writing them.
+Technology has always been at the core of my life. Ever since I was a young child, I have been fond of technology. There’s just something about tech that opens up new possibilities for a person. Being able to help people learn new technologies brings me joy.
 
 ### 🤔 What I'm Up to Right Now
 
 [Take a glimpse into what I am currently doing.](/now/)
-
-### 🧑🏻‍💻 What I Do
-
-I am an aspiring Swift/SwifUI Apple Developer. I have backgorund in front-end development and have dabbled in back-end development. I love to create tools and open-source projects that help make a difference in people's lives.
 
 <a name="connect-with-me"></a>
 
@@ -29,7 +23,7 @@ I am an aspiring Swift/SwifUI Apple Developer. I have backgorund in front-end de
 
 If you want to say hi or have any questions, I am happy to help! You can reach me at the social profiles below in the footer. If you rather send an email, that's fine also. You can hit me up at [kylereddoch@me.com](kylereddoch@me.com). My calendar is also open to [schedule a meeting](https://calendly.com/kyle_reddoch/30min).
 
-<a name="support-my-work"></a>
+You can also find me everywhere else on the internet via my [Bento page](https://bento.me/kylereddoch).
 
 ### ⚙️ Shortcuts
 
@@ -38,6 +32,8 @@ If you want to say hi or have any questions, I am happy to help! You can reach m
 Stuck on a shortcut? Have an idea and not sure where to start? Just want to say hi? Feel free to reach out to me [@kylewritescode@iosdev.space](https://iosdev.space/@kylewritescode) on Mastodon.
 
 You can also check out my [Shortcuts Gallery](/shortcuts-gallery/) where I have tons of Shortcuts that I've created for various tasks and routines.
+
+<a name="support-my-work"></a>
 
 ### 🙏🏼 Support My Work
 

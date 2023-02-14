@@ -9,6 +9,8 @@ feature-img: "assets/img/siri-shortcuts.jpg"
 order: 2
 ---
 
+**My Shortcuts gallery is being updated. Please be patient.**
+
 <iframe class="airtable-embed" src="https://airtable.com/embed/shrS45HzMGuxVOWfQ?backgroundColor=blue&viewControls=on" frameborder="0" onmousewheel="" width="100%" height="533" style="background: transparent; border: 0px;"></iframe>
 
 {% comment %}
