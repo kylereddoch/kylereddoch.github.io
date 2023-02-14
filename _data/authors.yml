@@ -1,5 +1,5 @@
 kylereddoch: # author-id
   name: "Kyle Reddoch"
-  picture: "assets/img/kyle-profile-pic.jpg"
-  twitter: winphankyle
-  url: "https://kylereddoch.me"
+  avatar: "/assets/img/kyle-profile-pic.jpg"
+  #twitter: winphankyle
+  url: "https://kylereddoch.me/about/"

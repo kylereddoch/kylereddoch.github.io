@@ -29,6 +29,40 @@ div.newsletter {
   }
 }
 
+.mastodon-comment {
+  background-color: var(--blockquote);
+  border-radius: $border-radius;
+  padding: $padding-small;
+  margin-bottom: 1rem;
+  display:flex
+}
+
+.mastodon-comment .content {
+  flex-grow:2
+}
+
+.mastodon-comment .avatar img {
+  margin-right: 1rem;
+  min-width:60px
+}
+
+.mastodon-comment .author {
+  padding-top: 0;
+  display:flex
+}
+
+.mastodon-comment .author .date {
+  margin-left:auto
+}
+
+.mastodon-comment .disabled {
+  color:var(--header-noimg-background)
+}
+
+.mastodon-comment-content p:first-child {
+  margin-top:0
+}
+
 code {
   white-space : pre-wrap !important;
 }

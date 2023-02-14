@@ -1,3 +1,16 @@
+GIT
+  remote: https://github.com/aarongustafson/jekyll-webmention_io.git
+  revision: 656f4d2771d4984f0cb1c0e6acabb31cfc02a420
+  specs:
+    jekyll-webmention_io (3.3.6)
+      htmlbeautifier (~> 1.1)
+      jekyll (>= 3.2.0, < 5.0)
+      json (~> 2.0)
+      openssl (>= 2.0, < 4.0)
+      string_inflection (~> 0.1)
+      uglifier (~> 4.1)
+      webmention (~> 7.0)
+
 PATH
   remote: .
   specs:
@@ -27,6 +40,8 @@ GEM
     concurrent-ruby (1.1.10)
     dnsruby (1.61.9)
       simpleidn (~> 0.1)
+    domain_name (0.5.20190701)
+      unf (>= 0.0.5, < 1.0.0)
     em-websocket (0.5.3)
       eventmachine (>= 0.12.9)
       http_parser.rb (~> 0)
@@ -58,6 +73,9 @@ GEM
     faraday-rack (1.0.0)
     faraday-retry (1.0.3)
     ffi (1.15.5)
+    ffi-compiler (1.0.1)
+      ffi (>= 1.0.0)
+      rake
     forwardable-extended (2.6.0)
     gemoji (3.0.1)
     github-pages (226)
@@ -114,9 +132,22 @@ GEM
     html-pipeline (2.14.1)
       activesupport (>= 2)
       nokogiri (>= 1.4)
+    htmlbeautifier (1.4.2)
+    http (5.1.1)
+      addressable (~> 2.8)
+      http-cookie (~> 1.0)
+      http-form_data (~> 2.2)
+      llhttp-ffi (~> 0.4.0)
+    http-cookie (1.0.5)
+      domain_name (~> 0.5)
+    http-form_data (2.3.0)
     http_parser.rb (0.8.0)
     i18n (0.9.5)
       concurrent-ruby (~> 1.0)
+    indieweb-endpoints (8.0.0)
+      http (~> 5.0)
+      link-header-parser (~> 5.0)
+      nokogiri (>= 1.13)
     jekyll (3.9.2)
       addressable (~> 2.4)
       colorator (~> 1.0)
@@ -225,14 +256,19 @@ GEM
       gemoji (~> 3.0)
       html-pipeline (~> 2.2)
       jekyll (>= 3.0, < 5.0)
+    json (2.6.3)
     kramdown (2.3.2)
       rexml
     kramdown-parser-gfm (1.1.0)
       kramdown (~> 2.0)
+    link-header-parser (5.0.0)
     liquid (4.0.3)
     listen (3.7.1)
       rb-fsevent (~> 0.10, >= 0.10.3)
       rb-inotify (~> 0.9, >= 0.9.10)
+    llhttp-ffi (0.4.0)
+      ffi-compiler (~> 1.0)
+      rake (~> 13.0)
     mercenary (0.3.6)
     minima (2.5.1)
       jekyll (>= 3.5, < 5.0)
@@ -240,6 +276,8 @@ GEM
       jekyll-seo-tag (~> 2.1)
     minitest (5.15.0)
     multipart-post (2.1.1)
+    nokogiri (1.13.4-arm64-darwin)
+      racc (~> 1.4)
     nokogiri (1.13.4-x86_64-darwin)
       racc (~> 1.4)
     nokogiri (1.13.4-x86_64-linux)
@@ -247,10 +285,12 @@ GEM
     octokit (4.22.0)
       faraday (>= 0.9)
       sawyer (~> 0.8.0, >= 0.5.3)
+    openssl (3.1.0)
     pathutil (0.16.2)
       forwardable-extended (~> 2.6)
     public_suffix (4.0.7)
     racc (1.6.0)
+    rake (13.0.6)
     rb-fsevent (0.11.1)
     rb-inotify (0.10.1)
       ffi (~> 1.0)
@@ -269,6 +309,7 @@ GEM
       faraday (> 0.8, < 2.0)
     simpleidn (0.2.1)
       unf (~> 0.1.4)
+    string_inflection (0.1.2)
     terminal-table (1.8.0)
       unicode-display_width (~> 1.1, >= 1.1.1)
     thread_safe (0.3.6)
@@ -276,10 +317,16 @@ GEM
       ethon (>= 0.9.0)
     tzinfo (1.2.9)
       thread_safe (~> 0.1)
+    uglifier (4.2.0)
+      execjs (>= 0.3.0, < 3)
     unf (0.1.4)
       unf_ext
     unf_ext (0.0.8.1)
     unicode-display_width (1.8.0)
+    webmention (7.0.0)
+      http (~> 5.0)
+      indieweb-endpoints (~> 8.0)
+      nokogiri (>= 1.13)
     zeitwerk (2.5.4)
 
 PLATFORMS
@@ -290,6 +337,7 @@ PLATFORMS
 DEPENDENCIES
   github-pages
   jekyll-sitemap
+  jekyll-webmention_io!
   type-on-strap!
 
 BUNDLED WITH

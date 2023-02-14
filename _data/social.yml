@@ -6,12 +6,12 @@ feed:
 # Share button options
 share:
   email: 
-  mastodon: 
-  facebook:
+  mastodon: true
+  facebook: true
   twitter:
-  linkedin: 
+  linkedin: true
   pinterest: 
-  pocket: 
-  reddit: 
+  pocket: true
+  reddit: true
   tumblr: 
   wordpress:

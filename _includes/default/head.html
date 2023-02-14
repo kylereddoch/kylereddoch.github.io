@@ -101,4 +101,7 @@
     <meta name="twitter:card" content="{% unless page.thumbnail %}summary{% else %}summary_large_image{% endunless %}">
     <meta name="twitter:image" content="{{ relative_url }}{% if page.thumbnail %}{{ page.thumbnail }}{% else %}{{ page.feature-img | default: site.header_feature_image }}{% endif %}">
     <meta name="twitter:image:alt" content="{{ page.title | default: site.title }}">
+
+    <!-- Jekyll Webmentions -->
+    {% webmentions_head %}
 </head>
