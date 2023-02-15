@@ -73,7 +73,7 @@ a.button {
 
 .body-link {
   &:hover {
-    text-decoration: underline;
+    text-decoration: none;
     color: var(--link);
     filter: brightness(0.85);
   }
