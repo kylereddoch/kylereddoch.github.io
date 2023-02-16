@@ -69,6 +69,8 @@ That means, when I go to that endpoint, I get a JSON response that looks like th
 
 Now all I need to do is put that JSON reponse in the same directory and file and that's it!
 
+<div align="center"><a class="button" href="https://donate.stripe.com/3cs7voeE46LX07e7ss" target="_blank">Support this site with a cup of coffee</a></div>
+
 ## Creating the WebFinger Spec with Jekyll
 
 My blog runs on `Jekyll` and is hosted on `GitHub Pages`. To have your Mastodon alias work with your domain tied to your Jekyll site, you need to follow a few steps:
