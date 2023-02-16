@@ -86,6 +86,10 @@ include: ["/.well-known" ]
 
 That's it! Just push your changes to GitHub and your alias will be ready to go. You can test it by going to `anything@yourdomain.whatever` on Mastodon and it will redirect you to your account.
 
+Check it out! Here is my alias working on Mastodon:
+
+{% include aligner.html images="mastodon-alias-example.png" %}
+
 ---
 
 #### References
