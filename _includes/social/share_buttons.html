@@ -37,9 +37,10 @@ window.open(url, '_blank');
         <li class="meta">Share</li>
         {% if site.data.social.share.mastodon or site.theme_settings.share_buttons.mastodon %}
         <li>
-            <a onclick="MastodonShare(this);"
-            data-src="{{ page.title }}&amp;url={{ page.url | absolute_url }}" title="{{ site.data.social.language.str_share_on }} Mastodon">
-                <i class="fab fa-mastodon fa-2x" aria-hidden="true"></i>
+            <a href="" target=""
+               title="{{ site.data.social.language.str_share_on }} Mastodon">    
+            <i class="fab fa-mastodon fa-2x" aria-hidden="true" onclick="MastodonShare(this);"
+                data-src="{{ page.title }}%20{{ page.url | absolute_url }}" style="cursor: pointer;"></i>
                 <span class="sr-only">{{ site.data.social.language.str_share_on | default: "Share on" }} Mastodon</span>
             </a>
         </li>
