@@ -7,7 +7,6 @@ collection: portfolio
 subtitle: "Check out some of my latest projects." 
 feature-img: "assets/img/pexels/computer.jpeg"
 hide: true
-order: 3
 ---
 
 #### Projects coming soon

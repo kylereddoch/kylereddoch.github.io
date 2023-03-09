@@ -6,7 +6,7 @@ permalink: /shortcuts-gallery/
 collection: shortcuts
 subtitle: "Just some Shortcuts I've created" 
 feature-img: "assets/img/siri-shortcuts.jpg"
-order: 2
+order: 3
 ---
 
 **My Shortcuts gallery is being updated. Please be patient.**

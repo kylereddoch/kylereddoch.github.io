@@ -5,5 +5,5 @@ permalink: /search/
 subtitle: "What are you looking for?"
 #feature-img: "assets/img/pexels/macbook-pro.jpg"
 icon: "fa-search"
-order: 5
+order: 7
 ---
