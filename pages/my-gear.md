@@ -3,6 +3,7 @@ layout: page
 title: My Gear
 description: This page is used to list all the gear I use on a regular basis. I've been asked a lot about what I use, so I figured I'd put it all in one place. I'll try to keep this page updated as I can..
 subtitle: "Everything I use and that's on my desk." 
+color: teal # For a colored header
 permalink: /my-gear/
 #feature-img: "assets/img/pexels/gear.jpg"
 order: 2

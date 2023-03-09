@@ -2,22 +2,22 @@ baseurl: ""
 url: "https://kylereddoch.me"
 
 # THEME-SPECIFIC CONFIGURATION
-title: Kyle Reddoch # site's title
-description: "Hello, my name is Kyle! This is a place to learn about code, what is like to be a software developer, and tech while emjoying a nice cup of coffee." # used by search engines
-tagline: "Code. Coffee. Tech. More."
+title: Code and Coffee # site's title
+description: "Hello, my name is Kyle! This is a place to learn about code, what it's like to be a software developer, and tech while enjoying a nice cup of coffee." # used by search engines
+tagline: "Lets Learn Together" # used in the header
 avatar: /assets/img/avatar.png # Empty for no avatar in navbar
 favicon: /assets/favicon.ico # Icon displayed in the tab
 
 # Header and footer text
-header_text: Code // Coffee // Tech // More  # Change Blog header text
+header_text: Let's Learn Together!  # Change Blog header text
 header_feature_image: /assets/img/kr_header_img.jpg
 footer_text: >
   Made with ☕️ by Kyle Reddoch.</br>Powered by <a href="https://jekyllrb.com/">Jekyll</a>.
 
 # SEO
-twitter:
-  username: winphankyle
-  card: summary
+#twitter:
+#  username: winphankyle
+#  card: summary
 
 # social:
 #   name: Kyle Reddoch
