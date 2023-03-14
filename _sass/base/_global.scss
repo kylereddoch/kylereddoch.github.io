@@ -62,16 +62,11 @@ h4 {
 
 iframe,
 embed,
+img,
 object,
 video {
   max-width: 100%;
   padding: 0 9%;
-  margin-left: auto;
-  margin-right: auto;
-}
-
-img {
-  max-width: 100%;
   margin-left: auto;
   margin-right: auto;
 }
@@ -113,7 +108,7 @@ img[align=center] {
   object,
   video {
     max-width: 100%;
-    padding: 0 1%;
+    padding: 0 9%;
   }
 }
 
@@ -231,7 +226,7 @@ li {
 ol,
 ul {
   list-style-position: outside;
-  margin-left: 1em;
+  margin-left: 4.5em;
 }
 
 hr {
