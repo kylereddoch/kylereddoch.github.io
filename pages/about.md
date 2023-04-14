@@ -30,7 +30,7 @@ You can also find me everywhere else on the internet via my [Bento page](https:/
 
 [Shortcuts](https://apps.apple.com/us/app/shortcuts/id915249334?mt=8&ign-mpt=uo%3D4) has allowed me to simplify many aspects of my daily life. Now that Shortcuts is available for Mac too, even more applications are possible.
 
-Stuck on a shortcut? Have an idea and not sure where to start? Just want to say hi? Feel free to reach out to me [@kylewritescode@iosdev.space](https://iosdev.space/@kylewritescode) on Mastodon.
+Stuck on a shortcut? Have an idea and not sure where to start? Just want to say hi? Feel free to reach out to me [@kylewritescode@iosdev.space](https://allthingstech.social/@kylewritescode) on Mastodon.
 
 You can also check out my [Shortcuts Gallery](/shortcuts-gallery/) where I have tons of Shortcuts that I've created for various tasks and routines.
 

@@ -25,7 +25,7 @@ I have two logos that I use. One is a coffe cup in front of a background of deve
 
 The following social media links are ordered from the most used to the least used. I try to post at least twice a week on Instagram and am starting my Twitch/YouTube channels with the plan on going live once a week. TikTok I am not that active on, but I will improve on that.
 
-- [Mastodon](https://iosdev.space/@kylewritescode)
+- [Mastodon](https://allthingstech.social/@kylewritescode)
 - [Instagram](https://www.instagram.com/kylewritescode/)
 - [Twitch](https://www.twitch.tv/kylewritescode)
 - [YouTube](https://www.youtube.com/@kylewritescode)
