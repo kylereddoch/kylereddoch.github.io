@@ -7,6 +7,7 @@ collection: shortcuts
 subtitle: "Just some Shortcuts I've created" 
 feature-img: "assets/img/siri-shortcuts.jpg"
 order: 3
+hide: true
 ---
 
 **My Shortcuts gallery is being updated. Please be patient.**
