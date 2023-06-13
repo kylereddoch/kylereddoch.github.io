@@ -10,7 +10,7 @@ order: 1
 
 ![Kyle Reddoch](/assets/img/kyle-profile-pic.jpg){:style="float: right; margin-left: 10px; margin-bottom: 10px;"}
 
-Hello there! I'm Kyle. I'm a self-taught web and software developer. I run entirely on coffee and love to create tools and open-source projects that help make a difference in people's lives.
+Hello there! I'm Kyle. I'm a self-taught web and software developer. I run entirely on coffee and love to create tools and open-source projects that help make a difference in people's lives. I also love to work on projects that help companies and organizations grow.
 
 Technology has always been at the core of my life. Ever since I was a young child, I have been fond of technology. There’s just something about tech that opens up new possibilities for a person. Being able to help people learn new technologies brings me joy.
 
@@ -38,7 +38,7 @@ You can also check out my [Shortcuts Gallery](/shortcuts-gallery/) where I have 
 
 ### 🙏🏼 Support My Work
 
-Being able to help people beings me joy. It is my hope that the tools and projects I create on my [GitHub](https://github.com/kylereddoch) does just that. There's no pressure, but any help to be able to continue my work is greatly appreciated.
+Being able to help people beings me joy. It is my hope that the tools and projects I create do just that. There's no pressure, but any help to be able to continue my work is greatly appreciated.
 
 You can support me (even receive exclusive perks via a membership) using the following links:
 
