@@ -2,14 +2,14 @@ baseurl: ""
 url: "https://kylereddoch.me"
 
 # THEME-SPECIFIC CONFIGURATION
-title: Code and Coffee # site's title
-description: "Hello, my name is Kyle! This is a place to learn about code, what it's like to be a software developer, and tech while enjoying a nice cup of coffee." # used by search engines
-tagline: "Dream it. Chase it. Code it." # used in the header
+title: Kyle's Tech Korner # site's title
+description: "Kyle's Tech Korner is a place to for tech news, tips, tricks and more. Set back, enjoy a cup of coffee and learn about tech." # used by search engines
+tagline: "Tech Takes and More." # used in the header
 avatar: /assets/img/avatar.png # Empty for no avatar in navbar
 favicon: /assets/favicon.ico # Icon displayed in the tab
 
 # Header and footer text
-header_text: Dream it. Chase it. Code it.  # Change Blog header text
+header_text: Tech Takes and More...  # Change Blog header text
 header_feature_image: /assets/img/kr_header_img.jpg
 footer_text: >
   Made with ☕️ by Kyle Reddoch.</br>Powered by <a href="https://jekyllrb.com/">Jekyll</a>.
