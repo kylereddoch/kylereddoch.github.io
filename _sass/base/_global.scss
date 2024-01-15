@@ -241,6 +241,10 @@ a {
   text-decoration: none;
 }
 
+strong, em {
+  color: var(--em);
+}
+
 kbd {
   background-color: #eee;
   border-radius: 3px;
