@@ -1,0 +1,201 @@
+@import url('https://cdn.cache.lol/profiles/themes/css/dracula.css');
+
+:root {
+    --foreground: #d8dee9;
+    --background: #2E3440;
+    --link: #5e81ac;
+    --accent: #868e96;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Mint Grotesk', sans-serif;
+    font-size: 120%;
+    color: var(--foreground);
+    background: var(--background);
+}
+
+header nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+header nav li {
+    display: inline-block;
+}
+
+header nav li a {
+    display: block;
+    text-decoration: none;
+    margin-right: 1em;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'Mint Grotesk', sans-serif;
+    margin: 1rem 0;
+}
+
+p,
+li {
+    line-height: 160%;
+}
+
+.profile-picture {
+    border-radius: 100%;
+    height: 8.7em;
+}
+
+header {
+    max-width: 60em;
+    margin: 2em auto;
+    padding: 0 1em;
+}
+
+footer {
+    max-width: 100%;
+}
+
+footer ul {
+    list-style: none;
+    margin: 0;
+}
+
+footer li {
+    display: inline;
+}
+
+.center {
+    text-align: center;
+}
+
+header {
+    margin-top: 4em;
+    text-align: center;
+}
+
+footer p {
+    font-size: 90%;
+    text-align: center;
+}
+
+a:link {
+    color: var(--link);
+}
+
+a:visited {
+    color: var(--link);
+}
+
+a:hover {
+    color: var(--link);
+}
+
+a:active {
+    color: var(--link);
+}
+
+.post-info,
+.post-tags {
+    font-size: 85%;
+    color: var(--accent);
+    text-align: right;
+}
+
+.post-info i:nth-child(2) {
+    margin-left: .75em;
+}
+
+.tag {
+    background: var(--accent);
+    color: var(--background) !important;
+    padding: .3em .4em;
+    margin: .8em 0 0 .4em;
+    border-radius: .5em;
+    text-decoration: none;
+    display: inline-block;
+}
+
+hr {
+    height: 1px;
+    border-width: 0;
+    color: var(--accent);
+    background-color: var(--accent);
+    margin: 2em 0;
+}
+
+code {
+    background: #282a36;
+    color: #eee;
+    padding: .2em .3em;
+    border: 1px solid var(--accent);
+    white-space: pre-wrap;
+    word-wrap: break-word;
+}
+
+pre,
+code {
+    font-family: 'MD IO 0.4';
+    font-size: 90%;
+}
+
+blockquote {
+    background-color: var(--accent);
+    border: 2px solid var(--link);
+    border-top-left-radius: 5px;
+    /*box-shadow: 2px 2px 0 var(--pink);*/
+    margin: 1em auto;
+    padding: 1em;
+    position: relative;
+    width: 85%;
+}
+
+blockquote::after {
+    bottom: .1em;
+    color: var(--background);
+    content: '\f10e';
+    font: var(--fa-font-solid);
+    font-size: 1.25em;
+    position: absolute;
+    right: .25em;
+    /*text-shadow: var(--pink)1px 1px 0;*/
+}
+
+img {
+    max-width: 100%;
+}
+
+table {
+    border-collapse: collapse;
+}
+
+td,
+th {
+    padding: .75em;
+    text-align: left;
+    border: 1px solid var(--accent);
+}
+
+.weblog-title a {
+    text-decoration: none;
+    color: var(--foreground);
+}
+
+.divider::after {
+    content: "\2022 \2022 \2022";
+    color: #ccc;
+}
+
+.previous-page+.next-page::before {
+    content: "\2022";
+    color: #ccc;
+    margin: 0 0.75em;
+}
