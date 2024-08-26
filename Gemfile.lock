@@ -41,7 +41,7 @@ GEM
     ffi (1.17.0-x86_64-darwin)
     forwardable-extended (2.6.0)
     gemoji (4.1.0)
-    github-pages (231)
+    github-pages (226)
       github-pages-health-check (= 1.18.2)
       jekyll (= 3.9.5)
       jekyll-avatar (= 0.8.0)
@@ -267,6 +267,8 @@ PLATFORMS
 
 DEPENDENCIES
   hacked-jekyll (~> 3.0)
+  github-pages
+  jekyll-sitemap
 
 BUNDLED WITH
    2.4.8
