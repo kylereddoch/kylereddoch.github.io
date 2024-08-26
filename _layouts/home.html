@@ -2,12 +2,96 @@
 layout: default
 ---
 
-<div class="home">
+{% case site.quotes -%}
+{% when 'keys' -%}
+{% assign quote_key = '"' -%}
+{% assign quote_value = '' -%}
+{% when 'values' -%}
+{% assign quote_key = '' -%}
+{% assign quote_value = '"' -%}
+{% when false -%}
+{% assign quote_key = '' -%}
+{% assign quote_value = '' -%}
+{% else -%}
+{% assign quote_key = '"' -%}
+{% assign quote_value = '"' -%}
+{% endcase -%}
 
-    <div id="main" class="call-out" {% if site.header_feature_image %}style="background-image: url('{{ site.header_feature_image | relative_url }}'); background-position: 100% -50px, 0 center, center center; "{% endif %}>
-        <h1> {{ site.header_text | default: "Change <code>header_text</code> in <code>_config.yml</code>"}} </h1>
+{% if site.commas == false -%}
+{% assign comma = '' -%}
+{% else -%}
+{% assign comma = ',' -%}
+{% endif -%}
+
+{% if site.newtab == true -%}
+{% assign tab = '_blank' -%}
+{% else -%}
+{% assign tab = '_self' -%}
+{% endif -%}
+
+<div id="json">
+  {% for pair in site.data.json %}
+  <div class="my ms">
+    {% if pair.typed -%}
+    <div id="strings">
+      {% for value in pair.value -%}
+      <span>{{ value }}</span>
+      {%- endfor %}
     </div>
-
-    {% include blog/blog.html %}
-
+    {{ quote_key }}<span class="key">{{ pair.key }}</span>{{ quote_key }}:
+    {{ quote_value }}<span class="value"><span id="typed"></span></span>{{ quote_value }}
+    {%- elsif pair.value.first.key -%}
+    {{ quote_key }}<span class="key">{{ pair.key }}</span>{{ quote_key }}: [
+    {% for value in pair.value -%}
+    {% if value.url -%}
+    <p class="ms">
+      {{ quote_key }}<span class="key">{{ value.key }}</span>{{ quote_key }}:
+      {{ quote_value }}<a class="value" href="{{ value.url | relative_url }}" target="{{ tab }}">{{ value.value }}</a>{{ quote_value }}
+      {%- unless forloop.last -%}
+      {{ comma }}
+      {%- endunless %}
+    </p>
+    {% else -%}
+    <p class="ms">
+      {{ quote_key }}<span class="key">{{ value.key }}</span>{{ quote_key }}:
+      {{ quote_value }}<span class="value">{{ value.value }}</span>{{ quote_value }}
+      {%- unless forloop.last -%}
+      {{ comma }}
+      {%- endunless %}
+    </p>
+    {% endif -%}
+    {%- endfor -%}
+    ]
+    {%- elsif pair.value.first -%}
+    {{ quote_key }}<span class="key">{{ pair.key }}</span>{{ quote_key }}: [
+    {% for value in pair.value -%}
+    {% if value.url -%}
+    <p class="ms">
+      {{ quote_value }}<a class="value" href="{{ value.url | relative_url }}" target="{{ tab }}">{{ value.value }}</a>{{ quote_value }}
+      {%- unless forloop.last -%}
+      {{ comma }}
+      {%- endunless %}
+    </p>
+    {% else -%}
+    <p class="ms">
+      {{ quote_value }}<span class="value">{{ value }}</span>{{ quote_value }}
+      {%- unless forloop.last -%}
+      {{ comma }}
+      {%- endunless %}
+    </p>
+    {% endif -%}
+    {%- endfor -%}
+    ]
+    {%- elsif pair.url -%}
+    {{ quote_key }}<span class="key">{{ pair.key }}</span>{{ quote_key }}:
+    {{ quote_value }}<a class="value" href="{{ pair.url | relative_url }}" target="{{ tab }}">{{ pair.value }}</a>{{ quote_value }}
+    {%- else -%}
+    {{ quote_key }}<span class="key">{{ pair.key }}</span>{{ quote_key }}:
+    {{ quote_value }}<span class="value">{{ pair.value }}</span>{{ quote_value }}
+    {%- endif -%}
+    {%- unless forloop.last -%}
+    {{ comma }}
+    {%- endunless %}
+  </div>
+  {% endfor %}
 </div>

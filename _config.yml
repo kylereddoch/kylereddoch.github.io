@@ -1,83 +1,19 @@
+title: KyleReddoch.me
+description: You've reached the top-level domain of Kyle Reddoch, aka The BeardedTechGuy. Why not have a look around?
 baseurl: ""
 url: "https://kylereddoch.me"
 
-# THEME-SPECIFIC CONFIGURATION
-title: Kyle's Tech Korner # site's title
-description: "Kyle's Tech Korner is a place to for tech news, tips, tricks and more. Set back, enjoy a cup of coffee and learn about tech." # used by search engines
-tagline: "Tech Takes and More." # used in the header
-avatar: /assets/img/avatar.png # Empty for no avatar in navbar
-favicon: /assets/favicon.ico # Icon displayed in the tab
+theme: hacked-jekyll
 
-# Header and footer text
-header_text: Tech Takes and More...  # Change Blog header text
-header_feature_image: /assets/img/kr_header_img.jpg
-footer_text: >
-  Made with ☕️ by Kyle Reddoch.</br>Powered by <a href="https://jekyllrb.com/">Jekyll</a>.
+exclude:
+  - LICENSE
+  - README.md
+  - vendor/
 
-# SEO
-#twitter:
-#  username: winphankyle
-#  card: summary
+plugins:
+  - jekyll-seo-tag
+  - jekyll-sitemap
 
-# social:
-#   name: Kyle Reddoch
-#   links:
-#     - https://twitter.com/WinPhanKyle
-#     - https://www.instagram.com/kyle.reddoch
-#     - https://www.linkedin.com/in/KyleReddoch
-#     - https://www.github.com/kylereddoch
-#     - https://www.tiktok.com/@kyle.reddoch
-
-webmaster_verifications:
-  google: 8cluH2jsTsFNmGrfwcW7jzX0xxXrA7TGQKXtlbG967E
-#  bing: 1234
-#  alexa: 1234
-#  yandex: 1234
-#  baidu: 1234
-#  facebook: 1234
-
-# Blog
-excerpt: truncate                                           # Or "truncate" (first 250 characters), "false" to disable
-post_navigation: true
-color_image: /assets/img/lineart.png                    # A bit transparent for color posts.
-
-# Features
-# More in the _data folder for share buttons, author and language
-# For layout customization, go to the "_sass > base" folder, and check "_variables.scss"
-katex: true                                             # Enable if using math markup
-mermaid: true                                           # Enable mermaid-js for sequence and diagrams
-google_analytics: UA-171416571-1                                      # Tracking ID, e.g. "UA-000000-01"
-cookie_consent: false                                   # To respect the usage of cookies
-color_theme: dark                                       # auto, dark or light
-
-# Comments (Have been moved to using Mastodon - comments config in headmatter of posts)
-comments:
-#  disqus_shortname: my-blog-zd0prubwvt                                    # Your discus shortname for comments
-#  cusdis_app_id:                                        # Your cusdis data-app-id
-#  utterances:                                           # Enable by filling below information. For more info, go to https://utteranc.es
-#    repo:                                               # your public comments repository (e.g. owner/repo)
-#    issue-term:                                         # Issue term (e.g. "comment" consider issues with this word in the title as comments)
-
-# PAGINATION
-paginate: 5
-paginate_path: "/blog/page:num"
-
-# PORTFOLIO
-collections:
-  portfolio:
-    output: true
-  shortcuts:
-    output: true
-  now:
-    output: true
-    permalink: /:collection/:name
-
-# BUILD SETTINGS
 sass:
-  style: compressed
-plugins: [jekyll-paginate, jekyll-seo-tag, jekyll-feed, jekyll-sitemap]
-exclude: [".jekyll-cache", ".idea", "vendor/*", "assets/node_modules/*"]
-include: [".well-known"]
-
-# theme: type-on-strap                                  # if using the theme as a jekyll theme gem
-remote_theme: sylhare/Type-on-Strap                     # If using as a remote_theme in github
+  sourcemap: never
+  

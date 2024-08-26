@@ -1,0 +1,30 @@
+- key: Name
+  value: Kyle Reddoch
+- key: aka
+  value: BeardedTechGuy
+- key: Greeting
+  value:
+    - Hello!
+    - Welcome to KyleReddoch.me
+    - You've reached my top-level domain.
+    - Connect with me below.
+  typed: true
+- key: Contact
+  value:
+    - key: Email
+      value: kyle@kylereddoch.me
+      url: "mailto:kyle@kylereddoch.me"
+- key: Profiles
+  value:
+    - value: Blog
+      url: https://weblog.kylereddoch.me
+    - value: Social Page
+      url: https://profile.kylereddoch.me
+    - value: Mastodon
+      url: https://allthingstech.social/@beardedtechguy
+    - value: GitHub
+      url: https://github.com
+    - value: LinkedIn
+      url: https://linkedin.com/in/kylereddoch
+    - value: Pixelfed
+      url: https://pixtagram.social/@beardedtechguy
