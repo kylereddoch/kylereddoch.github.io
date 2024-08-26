@@ -3,8 +3,6 @@ description: You've reached the top-level domain of Kyle Reddoch, aka The Bearde
 baseurl: ""
 url: "https://kylereddoch.me"
 
-theme: hacked-jekyll
-
 exclude:
   - LICENSE
   - README.md
