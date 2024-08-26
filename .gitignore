@@ -23,7 +23,6 @@ _development_tool/*
 *.gem
 .gems
 jekyll-theme-type-on-strap.gemspec
-hacked-jekyll.gemspec
 
 # Node.js
 **/node_modules/*
