@@ -12,6 +12,10 @@ Gem::Specification.new do |spec|
 
   spec.files         = `git ls-files -z`.split("\x0").select { |f| f.match(%r!^(assets|_data|_layouts|_includes|_sass|LICENSE|README|_config\.yml)!i) }
 
-  spec.add_runtime_dependency "github-pages", "~> 231"
+  spec.add_runtime_dependency "github-pages", "~> 2.3.1"
   spec.add_runtime_dependency "webrick", "~> 1.8", "1.8.1"
+  spec.add_runtime_dependency "jekyll", ">= 3.8", "< 5.0"
+  spec.add_runtime_dependency "jekyll-feed", ">= 0.15.1", "<= 0.17"
+  spec.add_runtime_dependency "jekyll-paginate", "~> 1.1.0"
+  spec.add_runtime_dependency "jekyll-seo-tag", ">= 2.7.1", "<= 2.8"
 end
