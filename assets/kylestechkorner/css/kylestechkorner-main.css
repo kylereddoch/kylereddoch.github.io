@@ -342,7 +342,7 @@ blockquote {
     color: var(--bluegrey);
     border: 1px solid var(--link);
     border-top-left-radius: 1em;
-    box-shadow: 2px 2px 0 var(--orange);
+    box-shadow: 4px 4px 0 var(--orange);
     margin: 1em auto;
     padding: 1em;
     position: relative;
@@ -548,9 +548,13 @@ svg.profile-accounts__icon {
     border-top-left-radius: 1em;
     width: 60%;
     margin: 0 auto;
-    box-shadow: 2px 2px 0 var(--pink);
+    box-shadow: 4px 4px 0 var(--pink);
     border: 1px solid var(--link);
 }
+.guestbooks___input-container {
+    margin-bottom: 15px;
+}
+
 input[type="text"], input[type="url"], textarea {
     width: 100%;
     padding: 10px;
@@ -576,7 +580,4 @@ input[type="submit"] {
 input[type="submit"]:hover {
     background-color: var(--link);
     color: var(--foreground);
-}
-.guestbooks___input-container {
-    margin-bottom: 15px;
 }
