@@ -90,25 +90,10 @@
     --yellow-33: #f1fa8c33;
 }
 
-:root[data-theme=dark] {
-    color-scheme: dark;
-    --background: var(--dark);
-    --main-color: var(--main);
-    --foreground: var(--light);
-    --code-bg: var(--background);
-    --code-text: var(--foreground);
-    --link-text: var(--foreground);
-    --main-line: var(--comment);
-    --tag-text: var(--background)
-}
-
 @media(prefers-color-scheme: dark) {
-    :root:not([data-theme]) {
-        color-scheme:dark;
-        --background: var(--dark);
+    :root {
         --main-color: var(--main);
-        --foreground: var(--light);
-        --code-bg: var(--background);
+        --code-bg: var(--dark);
         --code-text: var(--foreground);
         --link-text: var(--foreground);
         --main-line: var(--comment);
