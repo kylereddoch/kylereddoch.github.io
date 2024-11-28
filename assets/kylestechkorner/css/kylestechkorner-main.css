@@ -91,7 +91,7 @@
 }
 
 @media(prefers-color-scheme: dark) {
-    :root[data-theme="dark"] {
+    :root {
         --main-color: var(--main);
         --code-bg: var(--dark);
         --code-text: var(--foreground);
