@@ -1,0 +1,595 @@
+@import url('https://static.omg.lol/type/font-honey.css');
+@import url('https://static.omg.lol/type/font-lato-regular.css');
+@import url('https://static.omg.lol/type/font-lato-bold.css');
+@import url('https://static.omg.lol/type/font-lato-italic.css');
+@import url('https://static.omg.lol/type/font-md-io.css');
+@import url('https://static.omg.lol/type/fontawesome-free/css/all.css');
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    .latest-status {
+        /* display: inline-block; */
+        padding: 0 1em 1em;
+        border: 1px solid var(--accent);
+        width: 200px;
+        margin: 1.25em auto;
+        text-align: center;
+        border-radius: 5px;
+        /* justify-content: center; */
+        /* flex-wrap: nowrap; */
+        /* align-items: center; */
+    }
+    .weather-icon {
+        width: 40px; /* Adjust the width as needed */
+        height: 40px; /* Adjust the height as needed */
+        vertical-align: middle;
+        margin-bottom: 5px;
+    }
+    .current-weather, .current-song {
+        text-align: center;
+        margin-bottom: 10px;
+    }
+
+    .recent-posts {
+        display: inline-grid;
+        padding: 1em;
+        border: 1px solid var(--accent);
+        width: 60em;
+        margin: 0 0 1rem 0;
+        border-radius: 5px;
+    }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+
+}
+
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+
+}
+
+:root {
+    --foreground: #d8dee9;
+    --background: #2E3440;
+    --link: #5e81ac;
+    --accent: #868e96;
+    --dark: #282a36;
+    --light: #f8f8f2;
+    --main: #44475a;
+    --comment: #6272a4;
+    --cyan: #8be9fd;
+    --green: #50fa7b;
+    --orange: #ffb86c;
+    --pink: #ff79c6;
+    --purple: #bd93f9;
+    --red: #ff5555;
+    --yellow: #f1fa8c;
+    --dark-83: #282a3683;
+    --comment-33: #6272a433;
+    --comment-66: #6272a466;
+    --cyan-33: #8be9fd33;
+    --cyan-66: #8be9fd66;
+    --green-33: #50fa7b33;
+    --orange-33: #ffb86c33;
+    --pink-33: #ff79c633;
+    --purple-33: #bd93f933;
+    --red-33: #ff555533;
+    --yellow-33: #f1fa8c33;
+}
+
+:root[data-theme=dark] {
+    color-scheme: dark;
+    --background: var(--dark);
+    --main-color: var(--main);
+    --foreground: var(--light);
+    --code-bg: var(--background);
+    --code-text: var(--foreground);
+    --link-text: var(--foreground);
+    --main-line: var(--comment);
+    --tag-text: var(--background)
+}
+
+@media(prefers-color-scheme: dark) {
+    :root:not([data-theme]) {
+        color-scheme:dark;
+        --background: var(--dark);
+        --main-color: var(--main);
+        --foreground: var(--light);
+        --code-bg: var(--background);
+        --code-text: var(--foreground);
+        --link-text: var(--foreground);
+        --main-line: var(--comment);
+        --tag-text: var(--background)
+    }
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background: var(--background);
+    color: var(--foreground);
+    font-family: 'Mint Grotesk', sans-serif;
+    font-size: 120%;
+    height: 100%;
+    hyphens: auto;
+    letter-spacing: .025em;
+    margin: 0;
+    overflow-wrap: break-word;
+    padding: 2em 8px 1em;
+    position: relative
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav li {
+    display: inline-block;
+}
+
+nav li a {
+    display: block;
+    text-decoration: none;
+    margin-right: 1em;
+}
+
+h1,h2,h3,h4,h5,h6 {
+    font-weight: 600;
+    letter-spacing: initial;
+    line-height: 1.3;
+    margin: 1rem 0;
+    text-shadow: .025em .025em .025em rgba(0,0,0,.25);
+    text-wrap: balance
+}
+
+h1 {
+    font-size: 2em
+}
+
+h2 {
+    font-size: 1.75em
+}
+
+h3 {
+    font-size: 1.5em
+}
+
+h4 {
+    font-size: 1.25em
+}
+
+h5 {
+    font-size: 1.15em
+}
+
+h6 {
+    font-size: 1em
+}
+
+.welcome {
+    margin-top: 0;
+}
+
+p, li {
+    line-height: 160%;
+}
+
+.profile-picture {
+    border-radius: 100%;
+    height: 8.7em;
+}
+
+header, main, nav, footer {
+    max-width: 60em;
+    margin: 2em auto;
+    padding: 0 1em;
+}
+
+header {
+    margin: 1em auto !important;
+}
+
+main {
+    background: var(--main-color);
+    border: 1px solid var(--main-line);
+    border-radius: 1em;
+    box-shadow: 8px 8px var(--comment-66);
+    display: block;
+    padding: 2em;
+    text-align: left;
+    margin: 2em auto!important;
+}
+
+footer ul {
+    list-style: none;
+    margin: 0;
+}
+footer li {
+    display: inline;
+}
+.center {
+    text-align: center;
+}
+
+nav {
+    text-align: center;
+    margin: 1em auto!important;
+}
+
+footer p {
+    font-size: 90%;
+    line-height: 160%;
+    margin-top: 3em;
+    text-align: center;
+    text-shadow: .025em .025em .025em rgba(0,0,0,.25)
+}
+
+a:link,a:visited {
+    border-bottom: 2px dotted var(--pink);
+    color: var(--link-text);
+    text-decoration: none
+}
+
+a:hover,a:active {
+    border-bottom: 2px solid var(--pink);
+    color: var(--link-text);
+    text-decoration: none
+}
+
+#show-more {
+    display: block;
+    padding: .5em;
+    /*border: 1px solid var(--comment);*/
+    width: 135px;
+    margin: 1rem auto;
+    text-align: center;
+    /*border-radius: .5em;*/
+}
+
+.post-info, .post-tags {
+    font-size: 85%;
+    color: var(--accent);
+    text-align: left;
+}
+
+.post-info i:nth-child(2) {
+    margin-left: .75em;
+}
+
+.tag {
+    background: var(--accent);
+    color: var(--background) !important;
+    padding: .3em .4em;
+    margin: .8em 0 0 .4em;
+    border-radius: .5em;
+    text-decoration: none;
+    display: inline-block;
+}
+
+.recent-posts {
+    display: inline-grid;
+    padding: 1em;
+    border: 1px solid var(--comment);
+    width: 100%;
+    margin: 0 0 1rem 0;
+    border-top-left-radius: 1em;
+    box-shadow: 4px 4px 0 var(--cyan-66);
+    background: var(--purple-33);
+}
+
+.latest-status {
+    /* display: inline-block; */
+    padding: 0 1em 1em;
+    border: 1px solid var(--comment);
+    width: 100%;
+    /*margin: 1.25em auto;*/
+    text-align: left;
+    border-top-left-radius: 1em;
+    background: var(--purple-33);
+    box-shadow: 4px 4px 0 var(--orange-33);
+    /* justify-content: center; */
+    /* flex-wrap: nowrap; */
+    /* align-items: center; */
+}
+
+.latest-status::after {
+    bottom: .1em;
+    color: var(--purple-33);
+    content: '\f10e';
+    font: var(--fa-font-solid);
+    font-size: 1.25em;
+    position: absolute;
+    right: .25em;
+    text-shadow: var(--orange-33)1px 1px 0;
+}
+
+hr {
+    height: 1px;
+    border-width:0;
+    color: var(--accent);
+    background-color: var(--accent);
+    margin: 2em 0;
+}
+
+code {
+    padding: .2em .3em;
+    border: 1px solid var(--accent);
+    white-space: pre-wrap;
+    word-wrap: break-word;
+}
+
+pre, code {
+    font-family: 'MD IO 0.4', serif;
+    font-size: 90%;
+}
+
+pre code {
+    background:  var(--code-bg);
+    color:  var(--code-text);
+    display: inline-block;
+    padding: .2em .3em;
+    border: 1px solid var(--accent);
+    white-space: pre-wrap;
+    word-wrap: break-word;
+}
+
+blockquote {
+    background-color: var(--accent);
+    color: var(--bluegrey);
+    border: 3px solid var(--link);
+    border-radius: 8px;
+    box-shadow: 4px 4px 0 var(--pink);
+    margin: 1em auto;
+    padding: 1em;
+    position: relative;
+    width: 85%;
+}
+
+blockquote::after {
+    bottom: .1em;
+    color: var(--background);
+    content: '\f10e';
+    font: var(--fa-font-solid);
+    font-size: 1.25em;
+    position: absolute;
+    right: .25em;
+    /*text-shadow: var(--pink)1px 1px 0;*/
+}
+
+img,iframe {
+    border-radius: .75em;
+    max-width: 100%
+}
+
+img {
+    box-shadow: .05em .05em .5em rgba(0,0,0,.1);
+    height: auto
+}
+
+figure {
+    box-shadow: .05em .05em .5em rgba(0,0,0,.1)
+}
+
+figure img {
+    box-shadow: none
+}
+
+table {
+    border-collapse: collapse;
+}
+
+td, th {
+    padding: .75em;
+    text-align: left;
+    border: 1px solid var(--accent);
+}
+
+.weblog-title {
+    font-weight: 800;
+    margin-top: 0;
+}
+
+.weblog-title a {
+    border-bottom: none!important;
+    text-decoration: none;
+    color: var(--foreground);
+}
+
+.weblog-logo {
+    background-color: var(--caption-bg);
+    border: 1px solid var(--comment);
+    border-radius: 50%;
+    box-shadow: none;
+    display: inline-block;
+    height: calc(2em + 6px);
+    margin-right: .5em;
+    margin-bottom: 1rem;
+    padding: 2px;
+    vertical-align: -1em;
+    width: calc(2em + 6px);
+}
+
+.weather-icon {
+    width: 40px; /* Adjust the width as needed */
+    height: 40px; /* Adjust the height as needed */
+    vertical-align: middle;
+    margin-bottom: 10px;
+}
+
+.current-weather, .current-song {
+    text-align: center;
+}
+
+.omglol-status-header {
+    margin-top: 0em;
+    margin-bottom: .5em;
+    text-align: left;
+}
+
+.previous-page + .next-page::before {
+    content: "\2022";
+    color: #ccc;
+    margin: 0 0.75em;
+}
+
+.divider::after {
+    content: "\2022 \2022 \2022";
+    color: #ccc;
+}
+.sponsors {
+    text-align: center;
+}
+
+.profile-accounts {
+    background-image: none;
+    display: inline-flex;
+    flex-wrap: wrap;
+    gap: .25em 1em;
+    justify-content: center;
+    list-style-type: none;
+    margin: 0 auto;
+    padding-left: 0;
+    -webkit-text-fill-color: inherit
+}
+
+.profile-accounts__item {
+    margin-block-end:0}
+
+i.profile-accounts__icon {
+    text-shadow: .05em .05em .05em rgba(0,0,0,.25)
+}
+
+svg.profile-accounts__icon {
+    filter: drop-shadow(.05em .05em .05em rgba(0,0,0,.25))
+}
+
+.profile-accounts a:hover .profile-accounts__icon,.profile-accounts a:focus .profile-accounts__icon,.profile-accounts a:active .profile-accounts__icon {
+    color: var(--purple)
+}
+.u-hidden--visually {
+    clip: rect(0 0 0 0);
+    clip-path: inset(50%);
+    height: 1px;
+    overflow: hidden;
+    position: absolute;
+    white-space: nowrap;
+    width: 1px
+}
+
+/*.grid-items {
+    display: flex;
+    flex-wrap: wrap
+}*/
+
+.grid-items {
+    display: grid;
+    margin: 0 auto;
+    grid-template-columns: repeat(2,1fr);
+    grid-auto-rows: min-content;
+    column-gap: 2em;
+    row-gap: 2em
+}
+
+.grid-items--3-up {
+    grid-template-columns: repeat(3,1fr)
+}
+
+.grid-items__item {
+    margin-left: 1em;
+    margin-right: 1em;
+    flex: 1 1 20em
+}
+
+@supports(display: grid) {
+    .grid-items>* {
+        margin:0
+    }
+}
+
+.mastodon-post {
+    box-shadow: none;
+    font-size: smaller;
+    margin: 0
+}
+
+.mastodon-post__caption {
+    margin: 1.5em 1em
+}
+
+.mastodon-post__stats {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1.5em;
+    margin: 1.5em 0 0
+}
+
+.mastodon-post__stat dt,.mastodon-post__stat dd {
+    display: inline-block;
+    margin: 0
+}
+
+.mastodon-post__stat dd {
+    margin-left: .5em
+}
+
+#read-time {
+    font-size: 80%;
+    color: var(--accent);
+}
+
+#guestbooks___guestbook-form-container {
+    background-color:  var(--accent);
+    color: var(--bluegrey);
+    padding: 1em;
+    border-radius: 8px;
+    width: 60%;
+    margin: 0 auto;
+    box-shadow: 4px 4px 0 var(--pink);
+    border: 3px solid var(--link);
+}
+input[type="text"], input[type="url"], textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid var(--accent);
+    border-radius: 4px;
+    background-color: var(--background);
+    color: var(--foreground);
+    box-sizing: border-box;
+}
+input[type="text"]:focus, input[type="url"]:focus, textarea:focus {
+    outline: none;
+    border-color: var(--pink);
+}
+input[type="submit"] {
+    background-color: var(--pink);
+    color: var(--foreground);
+    border: none;
+    padding: 10px 20px;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+input[type="submit"]:hover {
+    background-color: var(--link);
+    color: var(--foreground);
+}
+.guestbooks___input-container {
+    margin-bottom: 15px;
+}
