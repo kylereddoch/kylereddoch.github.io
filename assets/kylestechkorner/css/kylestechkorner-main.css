@@ -326,8 +326,8 @@ pre, code {
 }
 
 pre code {
-    background:  var(--code-bg);
-    color:  var(--code-text);
+    background:  var(--dark);
+    color:  var(--foreground);
     display: inline-block;
     padding: .2em .3em;
     border: 1px solid var(--accent);
