@@ -91,13 +91,13 @@
 }
 
 @media(prefers-color-scheme: dark) {
-    :root {
+    :root[data-theme="dark"] {
         --main-color: var(--main);
         --code-bg: var(--dark);
         --code-text: var(--foreground);
         --link-text: var(--foreground);
         --main-line: var(--comment);
-        --tag-text: var(--background)
+        --tag-text: var(--background);
     }
 }
 
