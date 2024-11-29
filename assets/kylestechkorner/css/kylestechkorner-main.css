@@ -7,11 +7,20 @@
 
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {
+    body {
+        padding-inline:1em
+    }
+
+    main {
+        padding: 1.5em;
+        margin: 2em 1em;
+    }
+
     .latest-status {
         /* display: inline-block; */
         padding: 0 1em 1em;
         border: 1px solid var(--accent);
-        width: 200px;
+        width: 100%;
         margin: 1.25em auto;
         text-align: center;
         border-radius: 5px;
@@ -38,22 +47,63 @@
         margin: 0 0 1rem 0;
         border-radius: 5px;
     }
+
+    .grid-items {
+        display: inline;
+        margin: 0 auto;
+        grid-template-columns: repeat(2,1fr);
+        grid-auto-rows: min-content;
+        column-gap: 2em;
+        row-gap: 2em
+    }
 }
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
 @media only screen and (min-width: 600px) {
+    body {
+        padding:2em
+    }
 
+    blockquote {
+        margin:1.5em 1em;
+        padding: .5em 2em;
+    }
+
+    blockquote::after {
+        bottom: .25em;
+        font-size: 1.5em;
+        right: .5em
+    }
+
+    .weblog-title {
+        margin-top:1rem
+    }
+
+    .weblog-logo {
+        height: calc(2em + 6px);
+        margin-bottom: 0;
+        vertical-align: -.5em;
+        width: calc(2em + 6px)
+    }
 }
 
 
 /* Medium devices (landscape tablets, 768px and up) */
 @media only screen and (min-width: 768px) {
-
+    .weblog-logo {
+        display:inline-block
+    }
 }
 
 /* Large devices (laptops/desktops, 992px and up) */
 @media only screen and (min-width: 992px) {
+    .grid-items {
+        grid-template-columns:repeat(2,1fr)
+    }
 
+    .grid-items--3-up {
+        grid-template-columns: repeat(3,1fr)
+    }
 }
 
 /* Extra large devices (large laptops and desktops, 1200px and up) */
@@ -199,7 +249,7 @@ main {
     display: block;
     padding: 2em;
     text-align: left;
-    margin: 2em auto!important;
+    margin: 2em auto;
 }
 
 footer ul {
