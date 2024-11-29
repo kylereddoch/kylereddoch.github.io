@@ -49,12 +49,7 @@
     }
 
     .grid-items {
-        display: inline;
-        margin: 0 auto;
-        grid-template-columns: repeat(2,1fr);
-        grid-auto-rows: min-content;
-        column-gap: 2em;
-        row-gap: 2em
+        grid-template-columns:repeat(1,1fr)
     }
 }
 
@@ -538,7 +533,7 @@ svg.profile-accounts__icon {
 .grid-items {
     display: grid;
     margin: 0 auto;
-    grid-template-columns: repeat(1,1fr);
+    grid-template-columns: repeat(2,1fr);
     grid-auto-rows: min-content;
     column-gap: 2em;
     row-gap: 2em
