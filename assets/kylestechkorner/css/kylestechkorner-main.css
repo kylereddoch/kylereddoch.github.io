@@ -68,6 +68,10 @@
         vertical-align: -.5em;
         width: calc(2em + 6px)
     }
+
+    #guestbooks___guestbook-form-container {
+        width: 100%;
+    }
 }
 
 
@@ -90,10 +94,6 @@
         height: 40px; /* Adjust the height as needed */
         vertical-align: middle;
         margin-bottom: 10px;
-    }
-
-    #guestbooks___guestbook-form-container {
-        width: 100%;
     }
 }
 
