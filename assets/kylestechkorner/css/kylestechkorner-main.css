@@ -95,6 +95,10 @@
         vertical-align: middle;
         margin-bottom: 10px;
     }
+
+    #guestbooks___guestbook-form-container {
+        width: 100%;
+    }
 }
 
 /* Large devices (laptops/desktops, 992px and up) */
@@ -580,7 +584,6 @@ svg.profile-accounts__icon {
     color: var(--accent);
     padding: 1em;
     border-top-left-radius: 1em;
-    width: 60%;
     margin: 0 auto;
     box-shadow: 4px 4px 0 var(--pink);
     border: 1px solid var(--link);
