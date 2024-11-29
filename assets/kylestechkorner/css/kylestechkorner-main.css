@@ -530,10 +530,10 @@ svg.profile-accounts__icon {
     width: 1px
 }
 
-/*.grid-items {
+.grid-items {
     display: flex;
     flex-wrap: wrap
-}*/
+}
 
 .grid-items {
     display: grid;
@@ -542,10 +542,6 @@ svg.profile-accounts__icon {
     grid-auto-rows: min-content;
     column-gap: 2em;
     row-gap: 2em
-}
-
-.grid-items--3-up {
-    grid-template-columns: repeat(3,1fr)
 }
 
 .grid-items__item {
