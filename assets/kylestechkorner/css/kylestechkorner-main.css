@@ -8,7 +8,8 @@
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {
     body {
-        padding-inline:1em
+        padding-inline:1em;
+
     }
 
     main {
@@ -103,7 +104,9 @@
 
 /* Large devices (laptops/desktops, 992px and up) */
 @media only screen and (min-width: 992px) {
-
+main {
+    margin: 2em auto;
+    }
 }
 
 /* Extra large devices (large laptops and desktops, 1200px and up) */
@@ -249,7 +252,6 @@ main {
     display: block;
     padding: 2em;
     text-align: left;
-    margin: 2em auto;
 }
 
 footer ul {
@@ -441,6 +443,7 @@ td, th {
 .weblog-title {
     font-weight: 800;
     margin-top: 0;
+    text-align: center;
 }
 
 .weblog-title a {
