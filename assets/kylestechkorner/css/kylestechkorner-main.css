@@ -90,6 +90,10 @@
         grid-template-columns: repeat(3,1fr)
     }
 
+    .grid-items--4-up {
+        grid-template-columns: repeat(4,1fr)
+    }
+
     .weather-icon {
         width: 40px; /* Adjust the width as needed */
         height: 40px; /* Adjust the height as needed */
@@ -584,7 +588,6 @@ svg.profile-accounts__icon {
 
 #guestbooks___guestbook-form-container {
     background-color:  var(--accent);
-    color: var(--accent);
     padding: 1em;
     border-top-left-radius: 1em;
     margin: 0 auto;
