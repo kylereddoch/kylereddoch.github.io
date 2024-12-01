@@ -540,7 +540,13 @@ svg.profile-accounts__icon {
     margin: 0 auto;
     grid-auto-rows: min-content;
     column-gap: 2em;
-    row-gap: 2em
+    row-gap: 2em;
+    justify-self: center;
+}
+
+.grid-items img {
+    border-radius: 0!important;
+    max-width: 100%
 }
 
 .grid-items__item {
