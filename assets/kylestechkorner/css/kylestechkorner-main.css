@@ -308,10 +308,14 @@ a:hover,a:active {
     /*border-radius: .5em;*/
 }
 
-.post-info, .post-tags {
+.post-info, .post-tags, .share-post {
     font-size: 85%;
     color: var(--accent);
     text-align: left;
+}
+
+.post-tags {
+    margin-bottom: 2em;
 }
 
 .post-info i:nth-child(2) {
@@ -555,7 +559,6 @@ footer .grid-items {
     row-gap: 2em;
     justify-items: center;
 }
-
 
 .grid-items img {
     border-radius: 0!important;
