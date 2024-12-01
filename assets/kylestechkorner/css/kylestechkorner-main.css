@@ -323,7 +323,7 @@ a:hover,a:active {
 }
 
 .tag {
-    background: var(--accent);
+    background: var(--cyan-66);
     color: var(--background) !important;
     padding: .3em .4em;
     margin: .8em 0 0 .4em;
