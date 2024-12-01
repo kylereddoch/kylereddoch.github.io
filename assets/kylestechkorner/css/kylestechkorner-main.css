@@ -324,18 +324,20 @@ a:hover,a:active {
     /*border-radius: .5em;*/
 }
 
-.post-info, .post-tags, .share-post {
+.post-info, .post-tags, .share-post, .post-kudos {
     font-size: 85%;
     color: var(--accent);
     text-align: left;
-}
-
-.post-tags {
-    margin-bottom: 2em;
+    margin-block-start: 1em;
 }
 
 .post-info i:nth-child(2) {
     margin-left: .75em;
+}
+
+.post-kudos__btn{
+    background-color:var(--comment-66);
+    color:var(--foreground)
 }
 
 .tag {
@@ -664,6 +666,38 @@ input[type="text"], input[type="url"], textarea {
 input[type="text"]:focus, input[type="url"]:focus, textarea:focus {
     outline: none;
     border-color: var(--pink);
+}
+button,input[type=button]{
+    background-color:var(--pink);
+    border:1px solid var(--link-text);
+    border-left-width:1px;
+    border-radius:.5em;
+    box-shadow:.05em .05em .5em rgba(0,0,0,.1);
+    color:var(--tag-text);
+    font-family:unbounded regular,sans-serif;
+    font-size:85%;
+    font-weight:300;
+    height:calc(1.2em + 2px + 1em);
+    line-height:1.2em;
+    padding:.5em;
+    transition:filter ease-out .15s
+}
+button:hover,input[type=button]:hover,{
+    filter:brightness(85%)
+}
+button:focus-visible,input[type=button]:focus-visible{
+    border:1px solid var(--main-color);
+    outline:1px dashed var(--foreground);
+    outline-offset:2px
+}
+button:disabled,input[type=button]:disabled{
+    background-color:var(--main-color);
+    border-color:var(--comment);
+    color:var(--comment);
+    cursor:not-allowed
+}
+button:disabled:hover,input[type=button]:disabled:hover{
+    filter:none
 }
 input[type="submit"] {
     background-color: var(--pink);
