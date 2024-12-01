@@ -549,7 +549,7 @@ svg.profile-accounts__icon {
 
 footer .grid-items {
     display: grid;
-    margin: 0 auto;
+    margin: 3em auto;
     grid-auto-rows: min-content;
     column-gap: 2em;
     row-gap: 2em;
