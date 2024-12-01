@@ -229,6 +229,22 @@ h6 {
     font-size: 1em
 }
 
+:is(h1,h2,h3) :is(i,svg){
+    color:var(--purple);
+    font-size:unset;
+    margin-block-start:calc(1ex - var(--cap) - 1px);
+    padding-right:.5em;
+    vertical-align:middle!important
+}
+:is(h1,h2,h3) i{
+    font-size:85%;
+    text-shadow:var(--orange)1px 1px 0
+}
+:is(h1,h2,h3) svg{
+    filter:drop-shadow(var(--orange) 1px 1px 0);
+    height:.85em!important
+}
+
 .welcome {
     margin-top: 0;
 }
@@ -335,7 +351,7 @@ a:hover,a:active {
 .recent-posts {
     display: inline-grid;
     padding: 1em;
-    border: 1px solid var(--comment);
+    border: 2px solid var(--pink-33);
     width: 100%;
     margin: 0 0 1rem 0;
     border-top-left-radius: 1em;
@@ -346,12 +362,12 @@ a:hover,a:active {
 .latest-status {
     /* display: inline-block; */
     padding: 0 1em 1em;
-    border: 1px solid var(--comment);
+    border: 2px solid var(--red-33);
     width: 100%;
     /*margin: 1.25em auto;*/
     text-align: left;
     border-top-left-radius: 1em;
-    background: var(--purple-33);
+    background: var(--pink-33);
     box-shadow: 4px 4px 0 var(--orange-33);
     /* justify-content: center; */
     /* flex-wrap: nowrap; */
@@ -375,6 +391,22 @@ hr {
     color: var(--accent);
     background-color: var(--accent);
     margin: 2em 0;
+}
+
+dl{
+    margin-trim:block-end
+}
+dt{
+    background-color:var(--comment-33);
+    border-bottom:1px solid var(--orange);
+    box-shadow:.025em .025em .025em rgba(0,0,0,.25);
+    display:inline-block;
+    font-weight:700;
+    margin-bottom:.5em;
+    padding:0 5px
+}
+dd{
+    margin-bottom:1em
 }
 
 code {
@@ -402,9 +434,9 @@ pre code {
 }
 
 blockquote {
-    background-color: var(--accent);
-    color: var(--bluegrey);
-    border: 1px solid var(--link);
+    background-color: var(--comment-33);
+    color: var(--foreground);
+    border: 2px solid var(--link);
     border-top-left-radius: 1em;
     box-shadow: 4px 4px 0 var(--orange);
     margin: 1em auto;
@@ -465,7 +497,7 @@ td, th {
 }
 
 .weblog-logo {
-    background-color: var(--caption-bg);
+    background-color: var(--main);
     border: 1px solid var(--comment);
     border-radius: 50%;
     box-shadow: none;
@@ -609,7 +641,7 @@ footer .grid-items {
 }
 
 #guestbooks___guestbook-form-container {
-    background-color:  var(--accent);
+    background-color:  var(--comment-66);
     padding: 1em;
     border-top-left-radius: 1em;
     margin: 0 auto;
