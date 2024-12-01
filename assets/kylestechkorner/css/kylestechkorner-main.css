@@ -541,7 +541,7 @@ svg.profile-accounts__icon {
     grid-auto-rows: min-content;
     column-gap: 2em;
     row-gap: 2em;
-    justify-self: center;
+    justify-items: center;
 }
 
 .grid-items img {
