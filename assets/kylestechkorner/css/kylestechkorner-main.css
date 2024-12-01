@@ -73,6 +73,10 @@
     #guestbooks___guestbook-form-container {
         width: 100%;
     }
+
+    .grid-items--4-up {
+        grid-template-columns: repeat(4,1fr)
+    }
 }
 
 
@@ -541,8 +545,17 @@ svg.profile-accounts__icon {
     grid-auto-rows: min-content;
     column-gap: 2em;
     row-gap: 2em;
+}
+
+footer .grid-items {
+    display: grid;
+    margin: 0 auto;
+    grid-auto-rows: min-content;
+    column-gap: 2em;
+    row-gap: 2em;
     justify-items: center;
 }
+
 
 .grid-items img {
     border-radius: 0!important;
