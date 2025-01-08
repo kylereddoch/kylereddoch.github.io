@@ -444,7 +444,7 @@ blockquote {
     margin: 1em auto;
     padding: 1em;
     position: relative;
-    width: 85%;
+    width: 100%;
 }
 
 blockquote::after {
