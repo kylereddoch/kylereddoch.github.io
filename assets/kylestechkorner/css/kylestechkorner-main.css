@@ -565,8 +565,7 @@ svg.profile-accounts__icon {
     filter: drop-shadow(.05em .05em .05em rgba(0,0,0,.25))
 }
 
-.profile-accounts a:hover .profile-accounts__icon,.profile-accounts a:focus .profile-accounts__icon,.profile-accounts a:active .profile-accounts__icon, .profile-accounts a:link .profile-accounts__icon {
-    color: var(--purple);
+.profile-accounts a:hover .profile-accounts__icon,.profile-accounts a:focus .profile-accounts__icon,.profile-accounts a:active .profile-accounts__icon,.profile-accounts a:link .profile-accounts__icon {
     border-bottom: none !important;
 }
 .u-hidden--visually {
