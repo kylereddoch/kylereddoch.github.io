@@ -75,7 +75,7 @@
     }
 
     .grid-items--4-up {
-        grid-template-columns: repeat(4,1fr)
+        grid-template-columns: repeat(2,1fr)
     }
 }
 
@@ -95,7 +95,7 @@
     }
 
     .grid-items--4-up {
-        grid-template-columns: repeat(4,1fr)
+        grid-template-columns: repeat(2,1fr)
     }
 
     .weather-icon {
@@ -586,6 +586,7 @@ svg.profile-accounts__icon {
 }
 
 footer .grid-items {
+    width: fit-content;
     display: grid;
     margin: 3em auto;
     grid-auto-rows: min-content;
