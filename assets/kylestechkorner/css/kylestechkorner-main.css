@@ -470,8 +470,8 @@ img {
     box-shadow: .05em .05em .5em rgba(0,0,0,.1);
     height: auto
 }
-a:link img,a:visited img,a:active img,a:hover img {
-    border-bottom: none !important;
+a image,img {
+    border-bottom: none!important
 }
 
 figure {
