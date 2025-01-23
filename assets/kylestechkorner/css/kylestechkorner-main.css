@@ -470,7 +470,7 @@ img {
     box-shadow: .05em .05em .5em rgba(0,0,0,.1);
     height: auto
 }
-img a:link, a:visited, a:hover, a:active {
+a img {
     border-bottom: none !important;
 }
 
