@@ -297,6 +297,10 @@ nav {
     margin: 1em auto!important;
 }
 
+nav a {
+    border-bottom: none !important;
+}
+
 footer p {
     font-size: 90%;
     line-height: 160%;
@@ -470,6 +474,9 @@ img {
     box-shadow: .05em .05em .5em rgba(0,0,0,.1);
     height: auto
 }
+img a {
+    border-bottom: none !important;
+}
 
 figure {
     box-shadow: .05em .05em .5em rgba(0,0,0,.1)
@@ -613,6 +620,10 @@ footer .grid-items {
     .grid-items>* {
         margin:0
     }
+}
+
+.discuss-mastodon {
+    margin-top: 2em;
 }
 
 .mastodon-post {
