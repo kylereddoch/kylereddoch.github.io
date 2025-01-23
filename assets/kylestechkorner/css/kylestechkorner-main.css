@@ -38,7 +38,7 @@
     }
 
     .grid-items {
-        grid-template-columns:repeat(1,1fr)
+        grid-template-columns:repeat(2,1fr)
     }
 }
 
@@ -95,7 +95,7 @@
     }
 
     .grid-items--4-up {
-        grid-template-columns: repeat(2,1fr)
+        grid-template-columns: repeat(4,1fr)
     }
 
     .weather-icon {
