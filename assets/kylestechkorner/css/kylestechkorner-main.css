@@ -37,10 +37,6 @@
         border-radius: 5px;
     }
 
-    .grid-items {
-        grid-template-columns:repeat(2,1fr)
-    }
-
     .grid-items--4-up {
         grid-template-columns: repeat(2,1fr)
     }
