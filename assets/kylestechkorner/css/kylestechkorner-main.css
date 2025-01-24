@@ -40,6 +40,10 @@
     .grid-items {
         grid-template-columns:repeat(2,1fr)
     }
+
+    .grid-items--4-up {
+        grid-template-columns: repeat(2,1fr)
+    }
 }
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
