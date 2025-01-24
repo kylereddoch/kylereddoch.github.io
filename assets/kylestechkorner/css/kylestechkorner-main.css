@@ -37,6 +37,10 @@
         border-radius: 5px;
     }
 
+    .grid-items {
+        margin: 0 auto 3em auto;
+    }
+
     .grid-items--4-up {
         grid-template-columns: repeat(2,1fr)
     }
@@ -74,6 +78,10 @@
         width: 100%;
     }
 
+    .grid-items {
+        margin: 0 auto 3em auto;
+    }
+
     .grid-items--4-up {
         grid-template-columns: repeat(2,1fr)
     }
@@ -87,7 +95,8 @@
     }
 
     .grid-items {
-        grid-template-columns:repeat(2,1fr)
+        grid-template-columns:repeat(2,1fr);
+        margin: 0 auto;
     }
 
     .grid-items--3-up {
@@ -114,6 +123,9 @@
 @media only screen and (min-width: 992px) {
 main {
     margin: 2em auto;
+    }
+.grid-items {
+        margin: 0 auto;
     }
 }
 
@@ -585,7 +597,6 @@ svg.profile-accounts__icon {
 
 .grid-items {
     display: grid;
-    margin: 0 auto;
     grid-auto-rows: min-content;
     column-gap: 2em;
     row-gap: 2em;
