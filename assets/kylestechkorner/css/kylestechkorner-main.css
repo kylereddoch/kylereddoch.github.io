@@ -5,6 +5,59 @@
 @import url('https://static.omg.lol/type/font-md-io.css');
 @import url('https://static.omg.lol/type/fontawesome-free/css/all.css');
 
+:root {
+    --rosewater: #f5e0dc;
+    --flamingo: #f2cdcd;
+    --pink: #f5c2e7;
+    --mauve: #cba6f7;
+    --red: #f38ba8;
+    --maroon: #eba0ac;
+    --peach: #fab387;
+    --yellow: #f9e2af;
+    --green: #a6e3a1;
+    --teal: #94e2d5;
+    --sky: #89dceb;
+    --sapphire: #74c7ec;
+    --blue: #89b4fa;
+    --lavender: #b4befe;
+    --text: #cdd6f4;
+    --subtext1: #bac2de;
+    --subtext0: #a6adc8;
+    --overlay2: #9399b2;
+    --overlay1: #7f849c;
+    --overlay0: #6c7086;
+    --surface2: #585b70;
+    --surface1: #45475a;
+    --surface0: #313244;
+    --base: #1e1e2e;
+    --mantle: #181825;
+    --crust: #11111b;
+
+    /* Custom Aliases */
+    --foreground: var(--text);
+    --background: var(--base);
+    --main: var(--surface0);
+    --main-color: var(--surface0);
+    --accent: var(--overlay1);
+    --link: var(--blue);
+    --link-text: var(--text);
+    --code-bg: var(--mantle);
+    --code-text: var(--text);
+    --main-line: var(--overlay0);
+    --tag-text: var(--base);
+
+    /* Transparency variants */
+    --pink-33: #f5c2e755;
+    --cyan-66: #89dcebaa;
+    --purple-33: #cba6f755;
+    --orange-33: #fab38755;
+    --comment-66: #6c7086aa;
+    --comment-33: #6c708655;
+    --red-33: #f38ba855;
+    --yellow-33: #f9e2af55;
+    --green-33: #a6e3a155;
+}
+
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {
     body {
@@ -132,46 +185,6 @@ main {
 /* Extra large devices (large laptops and desktops, 1200px and up) */
 @media only screen and (min-width: 1200px) {
 
-}
-
-:root {
-    --foreground: #d8dee9;
-    --background: #2E3440;
-    --link: #5e81ac;
-    --accent: #868e96;
-    --dark: #282a36;
-    --light: #f8f8f2;
-    --main: #44475a;
-    --comment: #6272a4;
-    --cyan: #8be9fd;
-    --green: #50fa7b;
-    --orange: #ffb86c;
-    --pink: #ff79c6;
-    --purple: #bd93f9;
-    --red: #ff5555;
-    --yellow: #f1fa8c;
-    --dark-83: #282a3683;
-    --comment-33: #6272a433;
-    --comment-66: #6272a466;
-    --cyan-33: #8be9fd33;
-    --cyan-66: #8be9fd66;
-    --green-33: #50fa7b33;
-    --orange-33: #ffb86c33;
-    --pink-33: #ff79c633;
-    --purple-33: #bd93f933;
-    --red-33: #ff555533;
-    --yellow-33: #f1fa8c33;
-}
-
-@media(prefers-color-scheme: dark) {
-    :root {
-        --main-color: var(--main);
-        --code-bg: var(--dark);
-        --code-text: var(--foreground);
-        --link-text: var(--foreground);
-        --main-line: var(--comment);
-        --tag-text: var(--background);
-    }
 }
 
 * {
@@ -402,16 +415,17 @@ a:hover,a:active {
     text-shadow: var(--orange-33)1px 1px 0;
 }*/
 
+/* Line 422: Fix same color for background-color and color in <hr> */
 hr {
     height: 1px;
-    border-width:0;
+    border-width: 0;
     color: var(--accent);
-    background-color: var(--accent);
+    background-color: var(--main-line); /* Changed background-color to avoid conflict */
     margin: 2em 0;
 }
 
 dl{
-    margin-trim:block-end
+    margin-block-end: 1em; /* Replaced 'margin-trim' */
 }
 dt{
     background-color:var(--comment-33);
@@ -580,9 +594,9 @@ svg.profile-accounts__icon {
 .profile-accounts a:hover .profile-accounts__icon,.profile-accounts a:focus .profile-accounts__icon,.profile-accounts a:active .profile-accounts__icon,.profile-accounts a:link .profile-accounts__icon {
     border-bottom: none !important;
 }
+/* Line 597 & 858: Replace deprecated 'clip' property and fix 'clip-path' separator */
 .u-hidden--visually {
-    clip: rect(0 0 0 0);
-    clip-path: inset(50%);
+    clip-path: inset(0); /* Replaced 'clip' with valid 'clip-path' */
     height: 1px;
     overflow: hidden;
     position: absolute;
@@ -696,7 +710,7 @@ button,input[type=button]{
     border-radius:.5em;
     box-shadow:.05em .05em .5em rgba(0,0,0,.1);
     color:var(--tag-text);
-    font-family:unbounded regular,sans-serif;
+    font-family: "unbounded regular", sans-serif; /* Quoted family name */
     font-size:85%;
     font-weight:300;
     height:calc(1.2em + 2px + 1em);
@@ -704,9 +718,10 @@ button,input[type=button]{
     padding:.5em;
     transition:filter ease-out .15s
 }
-button:hover,input[type=button]:hover,{
+button:hover,input[type=button]:hover {
     filter:brightness(85%)
 }
+
 button:focus-visible,input[type=button]:focus-visible{
     border:1px solid var(--main-color);
     outline:1px dashed var(--foreground);
@@ -771,8 +786,9 @@ input[type="submit"]:hover {
 :is(h1,h2,h3) i.u-color--pink{
     text-shadow:var(--foreground)1px 1px 0
 }
-:is(h1,h2,h3) svg.u-color--pink{
-    filter:drop-shadow(var(--foreground) 1px 1px 0)
+/* Line 789: Fix 'drop-shadow' syntax for CSS variables */
+:is(h1, h2, h3) svg.u-color--pink {
+    filter: drop-shadow(1px 1px 0 var(--foreground)); /* Corrected syntax */
 }
 .u-highlight{
     background-color:var(--purple-33);
@@ -916,9 +932,8 @@ svg.u-shadow--icon{
     font:var(--fa-font-solid);
     margin-right:.5em;
     padding-right:0;
-    text-rendering:auto;
     text-shadow:.05em .05em .05em rgba(0,0,0,.25);
-    -webkit-font-smoothing:antialiased
+    -webkit-font-smoothing:antialiased;
 }
 .u-icon--blog::before{
     color:var(--orange);
