@@ -231,22 +231,22 @@ h1,h2,h3,h4,h5,h6 {
 
 h1 {
     font-size: 2em;
-    color: var(--purple);
+    color: var(--mauve);
 }
 
 h2 {
     font-size: 1.75em;
-    color: var(--cyan);
+    color: var(--flamingo);
 }
 
 h3 {
     font-size: 1.5em;
-    color: var(--orange);
+    color: var(--peach);
 }
 
 h4 {
     font-size: 1.25em;
-    color: var(--yellow);
+    color: var(--maroon);
 }
 
 h5 {
@@ -266,10 +266,10 @@ h6 {
 }
 :is(h1,h2,h3) i{
     font-size:85%;
-    text-shadow:var(--orange)1px 1px 0
+    text-shadow:var(--base)1px 1px 0
 }
 :is(h1,h2,h3) svg{
-    filter:drop-shadow(var(--orange) 1px 1px 0);
+    filter:drop-shadow(var(--base) 1px 1px 0);
     height:.85em!important
 }
 
@@ -331,13 +331,13 @@ footer p {
 }
 
 a:link,a:visited {
-    border-bottom: 2px dotted var(--pink);
+    border-bottom: 2px dotted var(--mauve);
     color: var(--link-text);
     text-decoration: none
 }
 
 a:hover,a:active {
-    border-bottom: 2px solid var(--pink);
+    border-bottom: 2px solid var(--mauve);
     color: var(--link-text);
     text-decoration: none
 }
@@ -364,12 +364,12 @@ a:hover,a:active {
 }
 
 .post-kudos__btn{
-    background-color:var(--comment-66);
+    background-color:var(--blue);
     color:var(--foreground)
 }
 
 .tag {
-    background: var(--cyan-66);
+    background: var(--teal);
     color: var(--background) !important;
     padding: .3em .4em;
     margin: .8em 0 0 .4em;
@@ -381,24 +381,24 @@ a:hover,a:active {
 .recent-posts {
     display: inline-grid;
     padding: 1em;
-    border: 2px solid var(--pink-33);
+    border: 2px solid var(--lavender);
     width: 100%;
     margin: 0 0 1rem 0;
     border-top-left-radius: 1em;
-    box-shadow: 4px 4px 0 var(--cyan-66);
-    background: var(--purple-33);
+    box-shadow: 4px 4px 0 var(--rosewater);
+    background: var(--mauve);
 }
 
 .latest-status {
     /* display: inline-block; */
     padding: 0 1em 1em;
-    border: 2px solid var(--red-33);
+    border: 2px solid var(--peach);
     width: 100%;
     /*margin: 1.25em auto;*/
     text-align: left;
     border-top-left-radius: 1em;
-    background: var(--pink-33);
-    box-shadow: 4px 4px 0 var(--orange-33);
+    background: var(--maroon);
+    box-shadow: 4px 4px 0 var(--pink);
     /* justify-content: center; */
     /* flex-wrap: nowrap; */
     /* align-items: center; */
@@ -465,11 +465,11 @@ pre code {
 }
 
 blockquote {
-    background-color: var(--comment-33);
+    background-color: var(--mauve);
     color: var(--foreground);
-    border: 2px solid var(--link);
+    border: 2px solid var(--lavender);
     border-top-left-radius: 1em;
-    box-shadow: 4px 4px 0 var(--orange);
+    box-shadow: 4px 4px 0 var(--rosewater);
     margin: 1em auto;
     padding: 1em;
     position: relative;
@@ -484,7 +484,7 @@ blockquote::after {
     font-size: 1.25em;
     position: absolute;
     right: .25em;
-    text-shadow: var(--orange)1px 1px 0;
+    text-shadow: var(--peach)1px 1px 0;
 }
 
 img,iframe {
@@ -527,12 +527,12 @@ td, th {
 .weblog-title a {
     border-bottom: none!important;
     text-decoration: none;
-    color: var(--foreground);
+    color: var(--rosewater);
 }
 
 .weblog-logo {
     background-color: var(--main);
-    border: 1px solid var(--comment);
+    border: 1px solid var(--rosewater);
     border-radius: 50%;
     box-shadow: none;
     display: inline-block;
