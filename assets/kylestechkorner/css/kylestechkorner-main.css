@@ -364,7 +364,7 @@ a:hover,a:active {
 }
 
 .post-kudos__btn{
-    background-color:var(--blue);
+    background-color:var(--surface1);
     color:var(--foreground)
 }
 
@@ -381,24 +381,24 @@ a:hover,a:active {
 .recent-posts {
     display: inline-grid;
     padding: 1em;
-    border: 2px solid var(--lavender);
+    border: 2px solid var(--rosewater);
     width: 100%;
     margin: 0 0 1rem 0;
     border-top-left-radius: 1em;
-    box-shadow: 4px 4px 0 var(--rosewater);
-    background: var(--mauve);
+    box-shadow: 4px 4px 0 var(--lavender);
+    background: var(--surface1);
 }
 
 .latest-status {
     /* display: inline-block; */
     padding: 0 1em 1em;
-    border: 2px solid var(--peach);
+    border: 2px solid var(--red);
     width: 100%;
     /*margin: 1.25em auto;*/
     text-align: left;
     border-top-left-radius: 1em;
-    background: var(--maroon);
-    box-shadow: 4px 4px 0 var(--pink);
+    background: var(--surface2);
+    box-shadow: 4px 4px 0 var(--maroon);
     /* justify-content: center; */
     /* flex-wrap: nowrap; */
     /* align-items: center; */
@@ -465,11 +465,11 @@ pre code {
 }
 
 blockquote {
-    background-color: var(--mauve);
+    background-color: var(--surface1);
     color: var(--foreground);
-    border: 2px solid var(--lavender);
+    border: 2px solid var(--rosewater);
     border-top-left-radius: 1em;
-    box-shadow: 4px 4px 0 var(--rosewater);
+    box-shadow: 4px 4px 0 var(--lavender);
     margin: 1em auto;
     padding: 1em;
     position: relative;
@@ -481,10 +481,10 @@ blockquote::after {
     color: var(--background);
     content: '\f10e';
     font: var(--fa-font-solid);
-    font-size: 1.25em;
+    font-size: 2em;
     position: absolute;
-    right: .25em;
-    text-shadow: var(--peach)1px 1px 0;
+    right: .50em;
+    /* text-shadow: var(--orange)1px 1px 0; */
 }
 
 img,iframe {
