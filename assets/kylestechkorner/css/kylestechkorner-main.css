@@ -478,7 +478,7 @@ blockquote {
 
 blockquote::after {
     bottom: .1em;
-    color: var(--background);
+    color: var(--maroon);
     content: '\f10e';
     font: var(--fa-font-solid);
     font-size: 2em;
