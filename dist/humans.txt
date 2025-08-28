@@ -1,0 +1,7 @@
+
+/* TEAM */ Developer: Kyle Reddoch Contact: kyle@kylereddoch.me Site:
+https://www.kylereddoch.me
+
+  Find me on: https://infosec.exchange/@beardedtechguy
+
+/* SITE */ Doctype: HTML5

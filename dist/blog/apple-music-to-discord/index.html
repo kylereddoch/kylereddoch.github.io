@@ -1,0 +1,378 @@
+<!doctype html>
+<html lang="en"><!-- The order of elements in the head follows recommendations by Harry Roberts. learn more here: https://www.youtube.com/watch?v=MHyAOZ45vnU -->
+<head>
+    <!-- 1 charset/viewport -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- 2 title -->
+    <title>Apple Music to Discord</title>
+
+    <base href="/blog/apple-music-to-discord/">
+
+    <!-- 3 synchronous js  -->
+    
+<script><!-- inlined for all pages -->
+(()=>{var p=Object.defineProperty;var u=(c,t,e)=>t in c?p(c,t,{enumerable:!0,configurable:!0,writable:!0,value:e}):c[t]=e;var s=(c,t,e)=>u(c,typeof t!="symbol"?t+"":t,e);var r=class r extends HTMLElement{constructor(){super(),this.ready=new Promise(t=>{this.readyResolve=t})}static getParents(t,e=!1){let a=[];for(;t;){if(t.matches&&t.matches(r.tagName)){if(e&&t===e)break;d.hasConditions(t)&&a.push(t)}t=t.parentNode}return a}static async ready(t,e){if(e||(e=r.getParents(t)),e.length===0)return;let a=await Promise.all(e.map(i=>i.wait()));if(a.length)return a[0]}forceFallback(){window.Island&&Object.assign(r.fallback,window.Island.fallback);for(let t in r.fallback){let e=Array.from(this.querySelectorAll(t)).reverse();for(let a of e){if(!a.isConnected)continue;let i=r.getParents(a);if(i.length===1){let o=r.ready(a,i);r.fallback[t](o,a,r.prefix)}}}}wait(){return this.ready}async connectedCallback(){d.hasConditions(this)&&this.forceFallback(),await this.hydrate()}getTemplates(){return this.querySelectorAll(`template[${r.attr.template}]`)}replaceTemplates(t){for(let e of t){if(r.getParents(e,this).length>0)continue;let a=e.getAttribute(r.attr.template);if(a==="replace"){let i=Array.from(this.childNodes);for(let o of i)this.removeChild(o);this.appendChild(e.content);break}else{let i=e.innerHTML;if(a==="once"&&i){if(r.onceCache.has(i)){e.remove();return}r.onceCache.set(i,!0)}e.replaceWith(e.content)}}}async hydrate(){let t=[];this.parentNode&&t.push(r.ready(this.parentNode));let e=d.getConditions(this);for(let a in e)d.map[a]&&t.push(d.map[a](e[a],this));await Promise.all(t),this.replaceTemplates(this.getTemplates());for(let a of r.onReady.values())await a.call(this,r);this.readyResolve(),this.setAttribute(r.attr.ready,""),this.querySelectorAll(`[${r.attr.defer}]`).forEach(a=>a.removeAttribute(r.attr.defer))}};s(r,"tagName","is-land"),s(r,"prefix","is-land--"),s(r,"attr",{template:"data-island",ready:"ready",defer:"defer-hydration"}),s(r,"onceCache",new Map),s(r,"onReady",new Map),s(r,"fallback",{":not(is-land,:defined,[defer-hydration])":(t,e,a)=>{let i=document.createElement(a+e.localName);for(let n of e.getAttributeNames())i.setAttribute(n,e.getAttribute(n));let o=e.shadowRoot;if(!o){let n=e.querySelector(":scope > template:is([shadowrootmode], [shadowroot])");if(n){let m=n.getAttribute("shadowrootmode")||n.getAttribute("shadowroot")||"closed";o=e.attachShadow({mode:m}),o.appendChild(n.content.cloneNode(!0))}}return o&&i.attachShadow({mode:o.mode}).append(...o.childNodes),i.append(...e.childNodes),e.replaceWith(i),t.then(()=>{i.shadowRoot&&e.shadowRoot.append(...i.shadowRoot.childNodes),e.append(...i.childNodes),i.replaceWith(e)})}});var f=r,l=class l{static hasConditions(t){return Object.keys(l.getConditions(t)).length>0}static getConditions(t){let e={};for(let a of Object.keys(l.map))t.hasAttribute(`on:${a}`)&&(e[a]=t.getAttribute(`on:${a}`));return e}static visible(t,e){if("IntersectionObserver"in window)return new Promise(a=>{let i=new IntersectionObserver(o=>{let[n]=o;n.isIntersecting&&(i.unobserve(n.target),a())});i.observe(e)})}static idle(){let t=new Promise(e=>{document.readyState!=="complete"?window.addEventListener("load",()=>e(),{once:!0}):e()});return"requestIdleCallback"in window?Promise.all([new Promise(e=>{requestIdleCallback(()=>{e()})}),t]):t}static interaction(t,e){let a=["click","touchstart"];return t&&(a=(t||"").split(",").map(i=>i.trim())),new Promise(i=>{function o(n){i();for(let m of a)e.removeEventListener(m,o)}for(let n of a)e.addEventListener(n,o,{once:!0})})}static media(t){let e={matches:!0};if(t&&"matchMedia"in window&&(e=window.matchMedia(t)),!e.matches)return new Promise(a=>{e.addListener(i=>{i.matches&&a()})})}static saveData(t){if(!(!("connection"in navigator)||navigator.connection.saveData===(t!=="false")))return new Promise(()=>{})}};s(l,"map",{visible:l.visible,idle:l.idle,interaction:l.interaction,media:l.media,"save-data":l.saveData});var d=l;"customElements"in window&&(window.customElements.define(f.tagName,f),window.Island=f);var y=f.ready;var h=class{};s(h,"attr",{autoInitType:"autoinit",import:"import"}),s(h,"types",{"petite-vue":function(t){t.createApp().mount(this)},vue:function(t){t.createApp().mount(this)},svelte:function(t){new t.default({target:this})},"svelte-ssr":function(t){new t.default({target:this,hydrate:!0})},preact:function(t){t.default(this)}});Island.onReady.set("import-autoinit",async function(c){let t,e=this.getAttribute(h.attr.import);if(e&&(t=await import(e)),t){let a=h.types[this.getAttribute(h.attr.autoInitType)||e];a&&await a.call(this,t)}});})();
+
+(()=>{var a="theme-preference",l={dark:"#f8f8f8",light:"#2e2e2e"},t={value:d()};window.onload=()=>{let e=document.querySelector("#light-theme-toggle"),r=document.querySelector("#dark-theme-toggle");document.querySelector("[data-theme-switcher]")&&(c(),o(),e.addEventListener("click",()=>n("light")),r.addEventListener("click",()=>n("dark")),e.setAttribute("aria-pressed",t.value==="light"),r.setAttribute("aria-pressed",t.value==="dark"))};window.matchMedia("(prefers-color-scheme: dark)").addEventListener("change",({matches:e})=>{t.value=e?"dark":"light",i(),o()});function n(e){t.value=e,document.querySelector("#light-theme-toggle").setAttribute("aria-pressed",e==="light"),document.querySelector("#dark-theme-toggle").setAttribute("aria-pressed",e==="dark"),i(),o()}function d(){return localStorage.getItem(a)?localStorage.getItem(a):window.matchMedia("(prefers-color-scheme: dark)").matches?"dark":"light"}function i(){localStorage.setItem(a,t.value),c(),o()}function c(){document.firstElementChild.setAttribute("data-theme",t.value)}function o(){let e=document.querySelector('meta[name="theme-color"]'),r=t.value==="dark"?l.dark:l.light;e.setAttribute("content",r)}c();})();</script>
+
+
+    <!-- 4 schema settings -->
+    <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "WebSite",
+        "@id": "http://localhost:8080#website",
+        "url": "http://localhost:8080",
+        "name": "Kyles Tech Korner",
+        "description": "My life and journey through this world of technology. A blog about tech, cybersecurity, and everything in between.",
+        "inLanguage": "en_EN"
+      }
+    ]
+  }
+</script>
+
+
+<script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "BlogPosting",
+    "mainEntityOfPage": {
+      "@type": "WebPage"
+    },
+    "isPartOf": {
+      "@id": "http://localhost:8080#website"
+    },
+    "@id": "",
+    "headline": "Apple Music to Discord",
+    "description": "Kyle tests out connecting Apple Music to Discord with an app for the Apple ecosystem and Windows ecosystem.",
+    "image": "http://localhost:8080/assets/images/template/opengraph-default.jpg",
+    "inLanguage": "en_EN",
+    "publisher": {
+      "@type": "Person",
+      "name": "Kyle Reddoch",
+      "url": "http://localhost:8080"
+    },
+    "author": {
+      "@type": "Person",
+      "name": "Kyle Reddoch"
+    },
+    "datePublished": "2024-11-21T00:00:00.000Z"
+  }
+</script>
+
+
+
+    <!-- 5 CSS  -->
+    <!-- <link rel="stylesheet" href="/assets/css/global.css?eb5d-a677-0821" /> -->
+    
+		<!-- External CSS for local dev (refresh without page reload) -->
+		<link rel="stylesheet" href="/bundle/Ttl_kCWg-F.css">
+		<link rel="stylesheet" href="/bundle/vw7ltkSln-.css">
+
+	
+
+
+    <!-- 6 preloads  -->
+    <link rel="preload" href="/assets/fonts/redhat/red-hat-display-v7-latin-900.woff2" as="font" type="font/woff2" crossorigin>
+
+<link rel="preload" href="/assets/fonts/atkinson/atkinson-hyperlegible-regular.woff2" as="font" type="font/woff2" crossorigin>
+
+<!-- preloads in page data -->
+
+
+    <!-- 7 defer  -->
+    
+
+
+    <!-- 8 meta tags, icons, open graph etc.  -->
+    
+
+<meta name="description" content="Kyle tests out connecting Apple Music to Discord with an app for the Apple ecosystem and Windows ecosystem.">
+<meta name="theme-color" content="#2e2e2e" media="(prefers-color-scheme: dark)">
+<meta name="theme-color" content="#f8f8f8" media="(prefers-color-scheme: light)">
+<!-- Search Engines -->
+<meta name="robots" content="index,follow">
+<meta name="googlebot" content="index,follow">
+<!-- Made with Eleventy! -->
+<meta name="generator" content="Eleventy v3.1.2">
+<!-- Disable automatic detection and formatting of possible phone numbers -->
+<meta name="format-detection" content="telephone=no">
+<!-- supports both dark and light color schemes, page author prefers light as default. -->
+<meta name="color-scheme" content="light dark">
+<!-- activates page transitions -->
+<meta name="view-transition" content="same-origin">
+<!-- Helps prevent duplicate content issues -->
+<link rel="canonical" href="http://localhost:8080/blog/apple-music-to-discord/">
+<!-- Links to information about the author(s) of the document -->
+<link rel="author" href="humans.txt">
+
+
+  <!-- Mastodon verified site -->
+  <link rel="me" href="https://infosec.exchange/@beardedtechguy">
+
+
+
+  <!-- fediverse creator tag -->
+  <meta name="fediverse:creator" content="@beardedtechguy@infosec.exchange">
+
+
+<!-- Open Graph meta  -->
+<meta property="og:url" content="http://localhost:8080/blog/apple-music-to-discord/">
+<meta property="og:type" content="website">
+<meta property="og:title" content="Apple Music to Discord">
+<meta property="og:image" content="http://localhost:8080/assets/og-images/apple-music-to-discord-preview.jpeg">
+<meta property="og:image:alt" content="Apple Music to Discord">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:description" content="Kyle tests out connecting Apple Music to Discord with an app for the Apple ecosystem and Windows ecosystem.">
+<meta property="og:site_name" content="Kyles Tech Korner">
+<meta property="og:locale" content="en_EN">
+<meta property="article:author" content="Kyle Reddoch">
+
+<!-- Twitter specific head data was removed in v2 -->
+
+<!-- RSS Autodiscovery. Loops over meta.blog.feedLinks -->
+
+  <link rel="alternate" type="application/atom+xml" title="Atom Feed: Kyles Tech Korner" href="/feed.xml">
+
+  <link rel="alternate" type="application/json" title="JSON Feed: Kyles Tech Korner" href="/feed.json">
+
+
+<!-- Favicon: https://evilmartians.com/chronicles/how-to-favicon-in-2021-six-files-that-fit-most-needs -->
+<link rel="icon" href="/favicon.ico" sizes="any">
+<link rel="icon" href="/favicon.svg" type="image/svg+xml">
+<link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+<link rel="manifest" href="/site.webmanifest">
+
+  </head>
+
+  <body class="post">
+    
+    <header class="wrapper">
+  <a href="#main" class="skip-link">Skip to content</a>
+
+  <div class="repel ontop gutter-s">
+    <a href="/" class="logo | cluster">
+      <picture slot="image">  <source type="image/avif" srcset="/assets/images/logo-32w.avif 32w" sizes="auto">
+  <source type="image/webp" srcset="/assets/images/logo-32w.webp 32w" sizes="auto">
+  <source type="image/jpeg" srcset="/assets/images/logo-32w.jpeg 32w" sizes="auto"><img src="/assets/images/logo-32w.jpeg" width="32" height="32" alt loading="lazy" decoding="async" eleventy:ignore></picture>
+
+      <span class="font-display">Kyles Tech Korner</span>
+    </a>
+    <!-- toggle drawer and sub menu in _data/meta.js -->
+
+
+
+<nav id="mainnav" aria-label="Main" class="mainnav">
+  <ul role="list" no-flash class="cluster">
+    
+      
+        <li>
+          <a href="/about/">About</a>
+        </li>
+      
+    
+      
+        <li>
+          <a href="/blog/" aria-current="page" data-state="active">Blog</a>
+        </li>
+      
+    
+      
+        <li>
+          <a href="/slashes/">Slashes</a>
+        </li>
+      
+    
+  </ul>
+</nav>
+
+
+
+
+
+  </div>
+</header>
+
+
+    <main id="main" class="flow">
+<div style="--region-space-top: var(--space-xl)" class="region">
+  <div class="wrapper flow prose">
+    <h1 class="gradient-text">Apple Music to Discord</h1>
+    
+
+    <p class="meta">
+      <!-- draft status -->
+      <!-- date -->
+       <time datetime="2024-11-21T00:00:00.000Z"> November 20, 2024</time> · About a 2 min read time
+    </p>
+
+    <p class="meta | cluster gutter-xs-s">
+    
+        <!-- tags -->
+        
+          <a href="/tags/apple-music/" data-small-button class="button"> apple music </a>
+        
+          <a href="/tags/discord/" data-small-button class="button"> discord </a>
+        
+          <a href="/tags/tech/" data-small-button class="button"> tech </a>
+        
+          <a href="/tags/apps/" data-small-button class="button"> apps </a>
+        
+          <a href="/tags/lastfm/" data-small-button class="button"> lastfm </a>
+        
+      
+      </p>
+
+    <p>I am a pretty big Discord user. I am active in various Discord communities and even run one myself, along with my co-admin of our Mastodon instance.</p>
+<p>Since I live in the Apple ecosystem, I use the best music service, Apple Music. 😉 Unfortunately, due to how Apple Music’s API works, Discord doesn’t connect with it like it does Spotify and Amazon Music. I wanted to be able to let people see what I was listening to on Apple Music. So I went on a mission to find a solution.</p>
+<div align="center">
+<p><picture><source type="image/webp" srcset="/.11ty/image/?src=src%2Fassets%2Fimages%2FDiscordPlayAppleMusic.png&amp;width=343&amp;format=webp&amp;via=transform 343w" sizes="auto"><img loading="lazy" decoding="async" src="/.11ty/image/?src=src%2Fassets%2Fimages%2FDiscordPlayAppleMusic.png&amp;width=343&amp;format=jpeg&amp;via=transform" alt="Discord Profile showing listening to Apple Music." width="343" height="600"></picture></p>
+</div>
+<p>Therefore, I went to the socials, <a href="https://allthingstech.social/@beardedtechguy" rel="noopener">Mastodon</a> specifically because that’s where I am mostly nowadays, and asked if anyone knew of a way to get it working.</p>
+<blockquote data-embed-url="https://allthingstech.social/@beardedtechguy/113454374149108298/embed" style="background: #FCF8FF; border-radius: 8px; border: 1px solid #C9C4DA; margin: 0; max-width: 540px; min-width: 270px; overflow: hidden; padding: 0" class="mastodon-embed"> <a href="https://allthingstech.social/@beardedtechguy/113454374149108298" target="_blank" style="align-items: center; color: #1C1A25; display: flex; flex-direction: column; font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Oxygen, Ubuntu, Cantarell, 'Fira Sans', 'Droid Sans', 'Helvetica Neue', Roboto, sans-serif; font-size: 14px; justify-content: center; letter-spacing: 0.25px; line-height: 20px; padding: 24px; text-decoration: none"> \<svg xmlns="http://www.w3.org/2000/svg" xlink="http://www.w3.org/1999/xlink" width="32" height="32" viewBox="0 0 79 75" \><path d="M74.7135 16.6043C73.6199 8.54587 66.5351 2.19527 58.1366 0.964691C56.7196 0.756754 51.351 0 38.9148 0H38.822C26.3824 0 23.7135 0.756754 22.2966 0.964691C14.1319 2.16118 6.67571 7.86752 4.86669 16.0214C3.99657 20.0369 3.90371 24.4888 4.06535 28.5726C4.29578 34.4289 4.34049 40.275 4.877 46.1075C5.24791 49.9817 5.89495 53.8251 6.81328 57.6088C8.53288 64.5968 15.4938 70.4122 22.3138 72.7848C29.6155 75.259 37.468 75.6697 44.9919 73.971C45.8196 73.7801 46.6381 73.5586 47.4475 73.3063C49.2737 72.7302 51.4164 72.086 52.9915 70.9542C53.0131 70.9384 53.0308 70.9178 53.0433 70.8942C53.0558 70.8706 53.0628 70.8445 53.0637 70.8179V65.1661C53.0634 65.1412 53.0574 65.1167 53.0462 65.0944C53.035 65.0721 53.0189 65.0525 52.9992 65.0371C52.9794 65.0218 52.9564 65.011 52.9318 65.0056C52.9073 65.0002 52.8819 65.0003 52.8574 65.0059C48.0369 66.1472 43.0971 66.7193 38.141 66.7103C29.6118 66.7103 27.3178 62.6981 26.6609 61.0278C26.1329 59.5842 25.7976 58.0784 25.6636 56.5486C25.6622 56.5229 25.667 56.4973 25.6775 56.4738C25.688 56.4502 25.7039 56.4295 25.724 56.4132C25.7441 56.397 25.7678 56.3856 25.7931 56.3801C25.8185 56.3746 25.8448 56.3751 25.8699 56.3816C30.6101 57.5151 35.4693 58.0873 40.3455 58.086C41.5183 58.086 42.6876 58.086 43.8604 58.0553C48.7647 57.919 53.9339 57.6701 58.7591 56.7361C58.8794 56.7123 58.9998 56.6918 59.103 56.6611C66.7139 55.2124 73.9569 50.665 74.6929 39.1501C74.7204 38.6967 74.7892 34.4016 74.7892 33.9312C74.7926 32.3325 75.3085 22.5901 74.7135 16.6043ZM62.9996 45.3371H54.9966V25.9069C54.9966 21.8163 53.277 19.7302 49.7793 19.7302C45.9343 19.7302 44.0083 22.1981 44.0083 27.0727V37.7082H36.0534V27.0727C36.0534 22.1981 34.124 19.7302 30.279 19.7302C26.8019 19.7302 25.0651 21.8163 25.0617 25.9069V45.3371H17.0656V25.3172C17.0656 21.2266 18.1191 17.9769 20.2262 15.568C22.3998 13.1648 25.2509 11.9308 28.7898 11.9308C32.8859 11.9308 35.9812 13.492 38.0447 16.6111L40.036 19.9245L42.0308 16.6111C44.0943 13.492 47.1896 11.9308 51.2788 11.9308C54.8143 11.9308 57.6654 13.1648 59.8459 15.568C61.9529 17.9746 63.0065 21.2243 63.0065 25.3172L62.9996 45.3371Z" fill="currentColor"></path></svg> <div style="color: #787588; margin-top: 16px">Post by @beardedtechguy@allthingstech.social</div> <div style="font-weight: 500">View on Mastodon</div> </a> </blockquote> <script data-allowed-prefixes="https://allthingstech.social/" async src="https://allthingstech.social/embed.js"></script>
+<p>A friend, Wesley (<a href="https://mastodon.social/@0xWDG" rel="noopener">0xWDG@mastodon.social</a>), replied to that post and told me that he had created an app for macOS that does just that.</p>
+<p>I was so excited as I am not a user of Spotify nor a fan of it. And to be honest, I have been a little jealous of seeing my friends on Discord with their “listening to on…” status.</p>
+<h2 id="macos"><a href="#macos" class="heading-anchor">macOS</a></h2>
+<div align="center">
+<p><picture><source type="image/webp" srcset="/.11ty/image/?src=src%2Fassets%2Fimages%2FAppleMusicDiscord.png&amp;width=500&amp;format=webp&amp;via=transform 500w" sizes="auto"><img loading="lazy" decoding="async" src="/.11ty/image/?src=src%2Fassets%2Fimages%2FAppleMusicDiscord.png&amp;width=500&amp;format=jpeg&amp;via=transform" alt="AppleMusic2Discord App shown running in the macOS menu bar." width="500" height="537"></picture></p>
+</div>
+<p>If you are using a Mac device, you can easily use the <a href="https://github.com/0xWDG/Apple-Music-to-Discord" rel="noopener">Apple Music to Discord</a> app that Wesley created. It is available on his GitHub account. Download the zip folder and put the .app file in your applications folder.</p>
+<p>From there all you need to do is:</p>
+<ol>
+<li>Open Discord</li>
+<li>Open Apple Music</li>
+<li>Open AM2D.app</li>
+<li>Now your playing status should start being updated.</li>
+</ol>
+<br>
+<div align="center">
+<p>This post is sponsored by PDF Expert - Get 30% off for Black Friday.</p>
+<p><a href="https://readdle.8kpa2n.net/c/3120092/2221892/11051" rel="noopener"><picture><source type="image/webp" srcset="/.11ty/image/?src=src%2Fassets%2Fsponsors%2Fpdfexpert%2Fpdf_expert_blackfriday_2024.png&amp;width=650&amp;format=webp&amp;via=transform 650w" sizes="auto"><img loading="lazy" decoding="async" src="/.11ty/image/?src=src%2Fassets%2Fsponsors%2Fpdfexpert%2Fpdf_expert_blackfriday_2024.png&amp;width=650&amp;format=jpeg&amp;via=transform" alt="Get 30% of a year of PDF Expert for Black Friday" width="650" height="80"></picture></a></p>
+</div>
+<h2 id="windows"><a href="#windows" class="heading-anchor">Windows</a></h2>
+<div align="center"><br>
+![AMWin-Rich Presence app shown running in the Windows system tray.](/assets/images/AMWin-RP.png)
+</div>
+<p>At work though, we run Windows machines, so the Apple to Discord app wouldn’t work on Discord there. Don’t worry—I found one for Windows that works great. It even scrobbles the Apple Music song to LastFM!</p>
+<p>The app is called <a href="https://github.com/PKBeam/AMWin-RP" rel="noopener">AMWin-Rich Presence</a>. I have been using it for about a week and it has been flawless.</p>
+<p>It only works with the <a href="https://apps.microsoft.com/detail/9PFHDD62MXS1" rel="noopener">Apple Music app</a> from the Microsoft Store, so make sure you have that downloaded.</p>
+<p>AMWin-RP is just a .exe file, so once you download and unzip the folder, you can place it anywhere you want, I placed it on my desktop. Just run the .exe file, and it runs in the background in the system tray.</p>
+<h2 id="the-wrap-up"><a href="#the-wrap-up" class="heading-anchor">The Wrap-Up</a></h2>
+<p>Both of these apps have been great while I have been using them. I have run into bumps along the way, for instance, if I have the Windows one running at work but I come home and want to use the Apple one on my MBP, it will sometimes wig out due to the Discord DRC. Discord will still show the music that is paused by my Windows machine at work.</p>
+<p>That may be specific to me since I span different OSes. I just have to remember to close out the Windows one when I leave work.</p>
+
+    <!-- 
+ -->
+  </div>
+
+  <!--  h-card infos: https://indieweb.org/authorship -->
+  <div hidden class="h-entry">
+    <a href="http://localhost:8080/blog/apple-music-to-discord/" class="u-url">Apple Music to Discord</a>
+    <a rel="author" href="http://localhost:8080" class="p-name u-url">Kyle Reddoch</a>
+    <img src="http://localhost:8080/assets/images/logo/logo.png" alt="Kyle Reddoch" class="u-author h-card">
+  </div>
+
+
+</div></main>
+
+    <footer class="site-footer mt-l-xl p-s-m">
+  <div class="wrapper">
+    <div class="cluster gutter-xs">
+      <nav aria-label="Complementary" class="cluster text-step-0">
+        © 2025
+        <a href="/"><span class="font-display">Kyles Tech Korner</span>
+        </a>
+
+        
+          <a href="/media-kit/">Media Kit</a>
+        
+      </nav>
+
+      <nav aria-label="Platforms" class="cluster">
+        <!-- gets the first item from the feed loop set in meta -->
+        <a href="/feed.xml" rel="alternate" type="application/atom+xml">
+          <span class="visually-hidden">Atom Feed</span>
+          <svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24" aria-hidden="true"><title>RSS</title><path d="M4 11a9 9 0 0 1 9 9M4 4a16 16 0 0 1 16 16"></path><circle cx="5" cy="19" r="1"></circle></svg>
+        </a>
+
+        
+          
+            <!-- regular platforms -->
+            <a href="https://github.com/kylereddoch/" rel="me" class="no-indicator">
+              <span class="visually-hidden">Github</span>
+              <svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24" aria-hidden="true"><path d="M15 22v-4a4.8 4.8 0 0 0-1-3.5c3 0 6-2 6-5.5.08-1.25-.27-2.48-1-3.5.28-1.15.28-2.35 0-3.5 0 0-1 0-3 1.5-2.64-.5-5.36-.5-8 0C6 2 5 2 5 2c-.3 1.15-.3 2.35 0 3.5A5.4 5.4 0 0 0 4 9c0 3.5 3 5.5 6 5.5-.39.49-.68 1.05-.85 1.65S8.93 17.38 9 18v4"></path><path d="M9 18c-4.51 2-5-2-7-2"></path></svg>
+            </a>
+          
+        
+          
+            <!-- regular platforms -->
+            <a href="https://infosec.exchange/@beardedtechguy" rel="me" class="no-indicator">
+              <span class="visually-hidden">Mastodon</span>
+              <svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24" aria-hidden="true"><path d="M21.887 5.996c-.308-2.314-2.298-4.14-4.655-4.492-.399-.059-1.906-.278-5.398-.278h-.026c-3.495 0-4.243.219-4.642.278-2.295.345-4.387 1.982-4.897 4.326-.242 1.153-.268 2.433-.222 3.606.065 1.684.078 3.361.228 5.039a24 24 0 0 0 .543 3.304c.484 2.009 2.439 3.68 4.355 4.359 2.049.71 4.256.829 6.368.342q.347-.085.69-.193c.513-.165 1.114-.351 1.559-.676q.009-.006.013-.016.006-.01.007-.024v-1.624s0-.013-.007-.02q-.002-.01-.013-.016l-.02-.01h-.019a17.4 17.4 0 0 1-4.132.49c-2.397 0-3.041-1.153-3.224-1.63a5.3 5.3 0 0 1-.281-1.287q0-.01.003-.019.002-.012.013-.017l.02-.01h.023c1.33.325 2.697.491 4.067.491.33 0 .657 0 .987-.01 1.376-.04 2.828-.11 4.184-.378.033-.007.069-.013.098-.02 2.138-.418 4.172-1.724 4.378-5.032.006-.129.026-1.365.026-1.498 0-.461.147-3.258-.023-4.979z"></path><path fill="currentColor" stroke-width="1" d="M6.061 7.288c0-.676.533-1.219 1.193-1.219.661 0 1.193.547 1.193 1.219 0 .673-.532 1.22-1.193 1.22-.66 0-1.193-.547-1.193-1.22Z"></path></svg>
+            </a>
+          
+        
+          
+            <!-- regular platforms -->
+            <a href="https://www.instagram.com/just_technerd_kyle/" rel="me" class="no-indicator">
+              <span class="visually-hidden">Instagram</span>
+              <svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24" aria-hidden="true"><rect width="20" height="20" x="2" y="2" rx="5" ry="5"></rect><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37M17.5 6.5h.01"></path></svg>
+            </a>
+          
+        
+          
+            <!-- regular platforms -->
+            <a href="https://www.linkedin.com/in/kylereddoch/" rel="me" class="no-indicator">
+              <span class="visually-hidden">Linkedin</span>
+              <svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24" aria-hidden="true"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6M2 9h4v12H2z"></path><circle cx="4" cy="4" r="2"></circle></svg>
+            </a>
+          
+        
+          
+            <!-- regular platforms -->
+            <a href="https://ko-fi.com/kylereddoch" rel="me" class="no-indicator">
+              <span class="visually-hidden">Kofi</span>
+              <svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24" aria-hidden="true"><path stroke-linecap="round" stroke-linejoin="round" d="M18 3h1c1.06 0 2.078.527 2.828 1.464C22.578 5.402 23 6.674 23 8s-.421 2.598-1.172 3.536C21.078 12.473 20.061 13 19 13h-1M1 3h17v12.461c0 1.47-.512 2.878-1.423 3.917-.91 1.038-2.146 1.622-3.434 1.622H5.857c-1.288 0-2.523-.584-3.434-1.622S1 16.93 1 15.46z"></path><path fill="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1" d="M13.288 8.707a2.43 2.43 0 0 0-2.65-.52c-.3.12-.57.3-.8.53l-.34.34-.35-.34a2.43 2.43 0 0 0-3.44 0c-.95.939-1 2.527.2 3.736L9.497 16l3.6-3.547c1.2-1.208 1.14-2.797.19-3.736v-.01Z"></path></svg>
+            </a>
+          
+        
+      </nav>
+    </div>
+
+    <!-- <is-land on:idle
+  ><div
+    role="region"
+    class="theme-switch | cluster mt-xs"
+    style="--cluster-horizontal-alignment: center; --gutter: 0.5rem"
+    aria-labelledby="theme-switcher-label"
+    data-theme-switcher
+  >
+    <h2 id="theme-switcher-label"></h2>
+    <button class="button" id="light-theme-toggle" data-theme="light" data-ghost-button data-small-button>
+      <span></span>
+    </button>
+    <button class="button" id="dark-theme-toggle" data-theme="dark" data-ghost-button data-small-button>
+      <span></span>
+    </button>
+  </div>
+</is-land>
+ -->
+
+    <aside class="creator | cluster gutter-2xs text-step-min-1 mt-xl">
+      Made with <span class="visually-hidden">love</span> <span><svg width="1em" height="1em" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24" aria-hidden="true"><path d="M7 3C4.239 3 2 5.216 2 7.95c0 2.207.875 7.445 9.488 12.74a.99.99 0 0 0 1.024 0C21.125 15.395 22 10.157 22 7.95 22 5.216 19.761 3 17 3s-5 3-5 3-2.239-3-5-3"></path></svg></span> and
+      <a href="https://www.11ty.dev/" class="no-indicator"><svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" fill="none" viewBox="0 0 29 29" aria-label="Eleventy"><path fill="currentColor" d="M9.156 22.425q-.324 0-.324-.878V7.08q0-.419-.168-.394l-1.035.263q-.284.026-.284-.576V5.116q0-.523.31-.588l3.415-.89a.5.5 0 0 1 .116-.012q.284 0 .283.615V21.55q0 .878-.336.877zm8.846.027q-.518 0-.899-.073a2.4 2.4 0 0 1-.795-.328 2 2 0 0 1-.68-.7q-.265-.446-.432-1.245t-.168-1.899v-6.714q0-.263-.142-.263h-.802q-.324 0-.324-.627v-.708q0-.64.324-.641h.803q.14 0 .141-.353l.233-5.093q.039-.693.336-.693h1.295q.324 0 .324.693v5.093q-.001.354.156.353h1.65q.324 0 .324.641v.708q0 .627-.324.627h-1.655q-.09 0-.122.046-.032.045-.031.217v6.756q0 .759.096 1.264.097.504.283.739.188.235.375.313.188.08.459.078h.917q.349.001.348.484v.785q0 .537-.374.537zm4.964 1.57q.296 0 .516-.49.22-.493.221-1.396 0-.211-.26-1.454l-2.536-10.67a2 2 0 0 1-.026-.29q0-.47.195-.47h1.566q.18 0 .297.123.12.124.18.503l1.681 9.008q.051.157.065.158.052-.002.053-.144l1.319-8.983q.052-.392.16-.53a.34.34 0 0 1 .28-.138h1.085q.22 0 .22.51 0 .118-.026.302l-2.303 12.138q-.271 1.506-.595 2.305-.324.798-.726 1.086a1.85 1.85 0 0 1-1.061.302h-.13q-1.048 0-1.422-.564-.104-.118-.103-.603 0-.97.31-.97.026 0 .466.131.445.138.574.136M2.648 22.45q-.324.001-.324-.877V7.105q0-.42-.169-.394l-1.035.262Q.836 7 .837 6.397V5.14q0-.521.31-.588l3.417-.892a.5.5 0 0 1 .116-.012q.284 0 .283.615v17.309q0 .878-.336.877z"></path></svg></a> by
+      <a href="https://www.kylereddoch.me">Kyle Reddoch</a>
+    </aside>
+  </div>
+</footer>
+<script type="module" src="/assets/scripts/components/custom-easteregg.js"></script>
+      <custom-easteregg></custom-easteregg><script type="module" src="/assets/scripts/components/mastodon-post.js"></script>
+  
+
+</body>
+</html>
