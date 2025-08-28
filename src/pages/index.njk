@@ -1,0 +1,68 @@
+---
+layout: base
+permalink: /index.html
+title: 'Beep...Boop...you made it!'
+description: 'Eleventy starter using modern CSS, fluid type, fluid spacing, flexible layout and progressive enhancement.'
+blog:
+  title: 'Blog'
+  intro: "Here are the 4 most recent posts. There's probably more though..."
+---
+
+<div class="wrapper">
+  <header class="full | section" style="--spot-color: var(--color-primary)">
+    <div class="section__inner flow region">
+      <h1 class="text-center" style="color: var(--color-bg);">{{ title }}</h1>
+    </div>
+    {% svg "divider/pixels", null, "divider" %}
+  </header>
+
+  <article class="full | region">
+    <div class="wrapper flow prose">
+      <h2 id="an-eleventy-starter">I'm Kyle!</h2>
+      <p>I'm an IT professional working in the MSP/Cybersecurity industry. I love everything tech. You can check out more about me <a href="https://profile.kylereddoch.me">here</a> or read my blog posts below. I blog about cybersecurity, technology trends, and best practices in IT. I even share the occasional tech review every now and then.</p>
+{% highlight "bash" %}
+$ hostname
+cyberseckyle.local
+
+$ cat about-$(hostname).config
+description = "Cybersecurity analyst and MSP operator focused on securing modern infrastructure. Lover of all things tech and coffee."
+focus_areas = ["Endpoint Hardening", "Network Security", "Threat Intelligence", "Cloud Security"]
+tech_stack = ["PowerShell", "Python", "Linux", "SonicWall", "Kaseya", "EDR/XDR", "SIEM"]
+
+$ diagnostics --run full
+> Scanning system configs... ✅
+> Verifying patch compliance... ✅
+> Reviewing firewall rules... ⚠️  minor gaps found
+> Checking audit logs... ✅
+> Correlating threat intel... ✅
+
+Report saved to /opt/kyle/intel/summary-2025-07-30.log
+
+$ buildtime
+{{ helpers.buildTime() }}
+{% endhighlight %}
+    </div>
+  </article>
+
+  <section class="full | region">
+    <div class="wrapper flow prose">
+      <h2>{{ blog.title }}</h2>
+      {% if blog.intro %}
+        <p>{{ blog.intro }}</p>
+      {% endif %}
+      <div class="feature |  region region-space-l">
+        <custom-masonry layout="50-50">
+          {% set itemList = collections.allPosts %}
+					{% asyncEach item in itemList.slice(0, 4) %}
+            {% set headingLevel = "h3" %}
+						{% include "partials/card-blog.njk" %}
+					{% endeach %}
+        </custom-masonry>
+      </div>
+    </div>
+  </section>
+
+    <div class="wrapper flow">
+      <p style="text-align: center;"><a href="/blog/">View more posts</a></p>
+  </div>
+</div>
